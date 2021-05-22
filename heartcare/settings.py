@@ -14,7 +14,7 @@ from heartcare.local_settings import (
 )
 
 from heartcare.logging import LOGGING
-from heartcare.juzzmin import CONFIG
+# from heartcare.juzzmin import CONFIG
 
 PROJECT_NAME = 'Patient-Management-System'
 
@@ -45,7 +45,6 @@ if ENABLE_HTTPS:  # local_settings
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
     SESSION_COOKIE_SECURE = True
     CSRF_COOKIE_SECURE = True
-
 
 # needed for debug toolbar
 INTERNAL_IPS = INTERNAL_IPS  # local_settings.py
@@ -160,15 +159,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'heartcare/static')
-]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-MEDIA_URL = '/media/'
-
 
 # Email Settings
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -177,3 +167,96 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'your email'
 EMAIL_HOST_PASSWORD = 'your password'
+
+
+
+STATIC_URL = '/static/'
+STATIC_ROOT = STATIC_DIR  # production, don't forget to run collectstatic
+STATICFILES_DIRS = [
+    STATICFILES_DIR,
+]  # development environment
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = MEDIA_DIR
+
+# Admin panel configuration ---------------------------------------------------
+# https://github.com/farridav/django-jazzmin
+# https://django-jazzmin.readthedocs.io/
+# JAZZMIN_SETTINGS = CONFIG
+
+ADMIN_URL = 'manage'  # do not include any leading/trailing slashes
+
+# Logging ---------------------------------------------------------------------
+# https://docs.djangoproject.com/en/3.2/topics/logging/
+
+if os.getenv('DISABLE_LOGGING', False):  # for celery in jenkins ci only
+    LOGGING_CONFIG = None
+LOGGING = LOGGING  # logging.py
+
+# Email -----------------------------------------------------------------------
+# https://docs.djangoproject.com/en/3.0/topics/email/
+
+try:  # optional settings import
+    from heartcare.local_settings import EMAIL_BACKEND
+
+    EMAIL_BACKEND = EMAIL_BACKEND
+except ImportError:  # use default if not defined in local_settings
+    EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# Celery ----------------------------------------------------------------------
+# https://docs.celeryproject.org/en/stable/userguide/configuration.html#configuration-and-defaults
+CELERY_BROKER_URL = os.getenv(
+    'CELERY_BROKER_URL', CELERY_BROKER_URL
+)
+
+# https://docs.celeryproject.org/en/stable/django/first-steps-with-django.html#extensions
+CELERY_RESULT_BACKEND = os.getenv(
+    'CELERY_RESULT_BACKEND', CELERY_RESULT_BACKEND
+)
+CELERY_CACHE_BACKEND = os.getenv(
+    'CELERY_CACHE_BACKEND', CELERY_CACHE_BACKEND
+)
+
+# DbBackup --------------------------------------------------------------------
+# https://django-dbbackup.readthedocs.io/
+
+# AWS S3 EXAMPLE
+# https://django-dbbackup.readthedocs.io/en/master/storage.html#amazon-s3
+# DBBACKUP_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+# DBBACKUP_STORAGE_OPTIONS = {
+#     'access_key': AWS_ACCESS_KEY_ID,
+#     'secret_key': AWS_SECRET_ACCESS_KEY,
+#     'bucket_name': AWS_STORAGE_BUCKET_NAME,
+#     'default_acl': 'private',
+#     'location': 'backup/',
+# }
+
+DBBACKUP_STORAGE = 'django.core.files.storage.FileSystemStorage'
+DBBACKUP_STORAGE_OPTIONS = {'location': 'backup/'}
+
+
+DJANGORESIZED_DEFAULT_SIZE = [300, 300]
+DJANGORESIZED_DEFAULT_QUALITY = 75
+DJANGORESIZED_DEFAULT_KEEP_META = True
+DJANGORESIZED_DEFAULT_FORCE_FORMAT = 'JPEG'
+DJANGORESIZED_DEFAULT_FORMAT_EXTENSIONS = {'JPEG': ".jpg"}
+DJANGORESIZED_DEFAULT_NORMALIZE_ROTATION = True
+
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'height': 250,
+        'width': 640,
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            [
+                'NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-',
+                'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'
+            ],
+            ['Link', 'Unlink'],
+            ['RemoveFormat', 'Source']
+        ]
+    }
+}
