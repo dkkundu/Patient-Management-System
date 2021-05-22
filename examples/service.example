@@ -1,0 +1,17 @@
+[Unit]
+Description=BKSP-uWSGI-instance
+After=network.target postgresql-11.service
+
+[Service]
+User=centos
+Group=nginx
+WorkingDirectory=/opt/BKSP
+Environment="PATH=/opt/BKSP/venv/bin"
+ExecStart=/opt/BKSP/venv/bin/uwsgi --ini /opt/BKSP/uwsgi/uwsgi.ini
+Restart=always
+KillSignal=SIGQUIT
+Type=notify
+NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
