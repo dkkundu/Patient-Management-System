@@ -1,6 +1,8 @@
 asgiref==3.3.4
 Django==3.2.3
 django-debug-toolbar==3.2.1
+django-jazzmin==2.4.7
+django-widget-tweaks==1.4.8
 flake8==3.9.2
 mccabe==0.6.1
 Pillow==8.2.0

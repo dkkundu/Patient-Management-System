@@ -1,9 +1,6 @@
-
-
 import datetime
 import os
 
-# PROJECT IMPORTS
 # from heartcare.jazzmin import CONFIG
 from heartcare.local_settings import (
     SECRET_KEY, TEMPLATES_DIR, STATICFILES_DIR, STATIC_DIR, MEDIA_DIR,
@@ -23,34 +20,55 @@ STATICFILES_DIR = os.getenv('STATICFILES_DIR', STATICFILES_DIR)
 STATIC_DIR = os.getenv('STATIC_DIR', STATIC_DIR)
 MEDIA_DIR = os.getenv('MEDIA_DIR', MEDIA_DIR)
 LOGS_DIR = os.getenv('LOGS_DIR', LOGS_DIR)
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+
 SECRET_KEY = SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = DEBUG
+
 
 ALLOWED_HOSTS = ALLOWED_HOSTS
 
+if ENABLE_HTTPS:  # local_settings
+    USE_X_FORWARDED_HOST = True
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
 
-# Application definition
+# needed for debug toolbar
+INTERNAL_IPS = INTERNAL_IPS  # local_settings.py
 
-INSTALLED_APPS = [
+# CORS HEADERS
+CORS_ALLOWED_ORIGINS = CORS_ALLOWED_ORIGINS
+CORS_ALLOW_ALL_ORIGINS = DEBUG  # Allows from all origins when DEBUG mode is on
+
+# Application definition ------------------------------------------------------
+
+
+DJANGO_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'hospital',
-    'appointment',
 ]
+
+PLAGIN_APPS = [
+    'widget_tweaks',
+     
+]
+
+PROJECT_APPS = [
+    'hospital.apps.HospitalConfig',
+    'appointment.apps.AppointmentConfig'
+]
+
+INSTALLED_APPS = DJANGO_APPS + PLAGIN_APPS + PROJECT_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -61,13 +79,12 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
 ROOT_URLCONF = 'heartcare.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [TEMPLATES_DIR,],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
