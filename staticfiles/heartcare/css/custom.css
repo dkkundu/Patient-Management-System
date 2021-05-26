@@ -1,32 +1,5 @@
 @charset "utf-8";
 
-/*
-Template Name: Heart Care
-Author Name: Jango Themes
-Version: 1.0.0.0
-
-      Table Of Content
----------------------------
-1. Header One
-2. Header Two
-3. Welcome Section
-4. Home Services
-5. Heart Care
-6. Testimonials + FAQ
-7. Team Section
-8. Call to Action + Appoinment
-9. News Section
-10. Footer
-11. Page SideBar
-12. About Page
-13. Services Start
-14. News Pages
-15. Team Details
-16. Contact Page
-17. Image Gallery
-18. Sidebar Widgets
-*/
-
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
@@ -927,6 +900,10 @@ body .m0 {
 	color: #bf0311;
 	font-weight: 400;
 	margin-top: 12px;
+}
+
+.welcome-img img {
+    width: 92%;
 }
 
 .learn-more {
@@ -2986,7 +2963,7 @@ body .faqs .collapse {
 	z-index: 99;
 }
 
-.team-detail-img:after {
+/* .team-detail-img:after {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -2997,7 +2974,7 @@ body .faqs .collapse {
 	left: 0px;
 	bottom: -50px;
 	content: "";
-}
+} */
 
 .team-details-text ul.team-social {
 	border: 0px;
