@@ -66,6 +66,7 @@ PLAGIN_APPS = [
 ]
 
 PROJECT_APPS = [
+    'core.apps.CoreConfig',
     'hospital.apps.HospitalConfig',
     'appointment.apps.AppointmentConfig'
 ]
