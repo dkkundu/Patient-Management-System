@@ -13,7 +13,7 @@ from import_export import resources
 from import_export.admin import (
     ImportExportModelAdmin, ImportExportActionModelAdmin)
 # PROJECT IMPORTS
-from Core import models
+from core import models
 
 logger = logging.getLogger(__name__)
 

@@ -2,7 +2,7 @@
 # DJANGO URLS
 from django.urls import path
 # CORE IMPORTS
-from Core import views
+from core import views
 
 app_name = 'core'
 

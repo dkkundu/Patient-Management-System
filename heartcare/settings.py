@@ -63,6 +63,8 @@ PLAGIN_APPS = [
     'django_extensions',
     'debug_toolbar',
     'django_prometheus',
+    'import_export',
+
      
 ]
 
@@ -151,6 +153,8 @@ USE_L10N = True
 
 USE_TZ = True
 
+
+AUTH_USER_MODEL = 'core.User'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/

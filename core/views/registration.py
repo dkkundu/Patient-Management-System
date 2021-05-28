@@ -10,7 +10,7 @@ from django.urls import reverse_lazy
 from django.views.generic import CreateView
 from django.utils.translation import ugettext_lazy as _
 # CORE IMPORTS
-from Core.forms import SignupForm
+from core.forms import SignupForm
 
 
 logger = logging.getLogger(__name__)

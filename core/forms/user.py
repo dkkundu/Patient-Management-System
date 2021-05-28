@@ -3,7 +3,7 @@
 from django import forms
 from django.contrib.auth import get_user_model
 # CORE IMPORTS
-from Core.models import Profile
+from core.models import Profile
 
 USER_MODEL = get_user_model()
 

@@ -10,8 +10,8 @@ from django.contrib.auth.mixins import (
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView
 # CORE IMPORTS
-from Core.forms import SignupForm, UserUpdateForm, ProfileUpdateForm
-from Core.models import Profile
+from core.forms import SignupForm, UserUpdateForm, ProfileUpdateForm
+from core.models import Profile
 # PROJECT IMPORTS
 from utils import test_user
 
