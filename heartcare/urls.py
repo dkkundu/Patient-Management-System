@@ -11,6 +11,7 @@ urlpatterns = [
     path('appointment/', include('appointment.urls')),
 
     path('__debug__/', include(debug_toolbar.urls)),
+    path('', include('django_prometheus.urls')),
 ]
 
 if settings.DEBUG:

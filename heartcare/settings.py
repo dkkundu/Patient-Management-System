@@ -62,6 +62,7 @@ PLAGIN_APPS = [
     'widget_tweaks',
     'django_extensions',
     'debug_toolbar',
+    'django_prometheus',
      
 ]
 
@@ -74,6 +75,7 @@ PROJECT_APPS = [
 INSTALLED_APPS = DJANGO_APPS + PLAGIN_APPS + PROJECT_APPS
 
 MIDDLEWARE = [
+    'django_prometheus.middleware.PrometheusBeforeMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -82,6 +84,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'django_prometheus.middleware.PrometheusAfterMiddleware',
 ]
 ROOT_URLCONF = 'heartcare.urls'
 
