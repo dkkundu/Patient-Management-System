@@ -19,23 +19,23 @@ logger = logging.getLogger(__name__)
 class UserManager(BaseUserManager):
     """User Manager overridden from BaseUserManager for User"""
 
-    def _create_user(self, email, password=None, **extra_fields):
+    def _create_user(self, phone, password=None, **extra_fields):
         """Creates and returns a new user using an email address"""
-        if not email:  # check for an empty email
+        if not phone:  # check for an empty email
             logger.error(  # prints class and function name
                 f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-                f"User must set an email address"
+                f"User must set an phone address"
             )
-            raise AttributeError("User must set an email address")
-        else:  # normalizes the provided email
-            email = self.normalize_email(email)
+            raise AttributeError("User must set an phone address")
+        else:  # normalizes the provided phone
+            phone = phone
             logger.debug(  # prints class and function name
                 f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-                f"Normalized email: {email}"
+                f"Normalized email: {phone}"
             )
 
         # create user
-        user = self.model(email=email, **extra_fields)
+        user = self.model(phone=phone, **extra_fields)
         user.set_password(password)  # hashes/encrypts password
         user.save(using=self._db)  # safe for multiple databases
         logger.debug(  # prints class and function name
@@ -44,45 +44,45 @@ class UserManager(BaseUserManager):
         )
         return user
 
-    def create_user(self, email, password=None, **extra_fields):
-        """Creates and returns a new user using an email address"""
+    def create_user(self, phone, password=None, **extra_fields):
+        """Creates and returns a new user using an phone address"""
         extra_fields.setdefault('is_staff', False)
         extra_fields.setdefault('is_superuser', False)
         logger.debug(  # prints class and function name
             f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-            f"Creating user: email={email}, extra_fields={extra_fields}"
+            f"Creating user: email={phone}, extra_fields={extra_fields}"
         )
-        return self._create_user(email, password, **extra_fields)
+        return self._create_user(phone, password, **extra_fields)
 
-    def create_staffuser(self, email, password=None, **extra_fields):
+    def create_staffuser(self, phone, password=None, **extra_fields):
         """Creates and returns a new staffuser using an email address"""
         extra_fields.setdefault('is_staff', True)
         extra_fields.setdefault('is_superuser', False)
         logger.debug(  # prints class and function name
             f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-            f"Creating staffuser: email={email}, extra_fields={extra_fields}"
+            f"Creating staffuser: phone={phone}, extra_fields={extra_fields}"
         )
-        return self._create_user(email, password, **extra_fields)
+        return self._create_user(phone, password, **extra_fields)
 
-    def create_superuser(self, email, password=None, **extra_fields):
+    def create_superuser(self,phone, password=None, **extra_fields):
         """Creates and returns a new superuser using an email address"""
         extra_fields.setdefault('is_staff', True)
         extra_fields.setdefault('is_superuser', True)
         logger.debug(  # prints class and function name
             f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-            f"Creating superuser: email={email}, extra_fields={extra_fields}"
+            f"Creating superuser: phone={phone}, extra_fields={extra_fields}"
         )
-        return self._create_user(email, password, **extra_fields)
+        return self._create_user(phone, password, **extra_fields)
 
 
 class User(AbstractBaseUser, PermissionsMixin,
            ExportModelOperationsMixin('user')):
     """User model that supports using email instead of username"""
     email = models.EmailField(
-        _('Email Address'), max_length=255, unique=True, blank=False, null=True
+        _('Email Address'), max_length=255, unique=True, blank=True, null=True
     )
     phone = models.CharField(
-        _('Mobile Phone'), max_length=12, blank=True, null=True,
+        _('Mobile Phone'), max_length=12, blank=True, null=True, unique=True,
         validators=[RegexValidator(  # min: 10, max: 12 characters
             r'^[\d]{10,12}$', message='Format (ex: 0123456789)'
         )]
@@ -108,14 +108,14 @@ class User(AbstractBaseUser, PermissionsMixin,
 
     objects = UserManager()  # uses the custom manager
 
-    USERNAME_FIELD = 'email'  # overrides username to email field
+    USERNAME_FIELD = 'phone'  # overrides username to phone field
 
     def get_full_name(self):
         """Returns full name of User
         Return None if no names are set"""
         logger.debug(  # prints class and function name
             f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-            f"Getting {self.email}'s full name"
+            f"Getting {self.phone}'s full name"
         )
         full_name = None  # default
 
@@ -147,4 +147,4 @@ class User(AbstractBaseUser, PermissionsMixin,
 
     def __str__(self):
         """User model string representation"""
-        return self.email
+        return self.phone
