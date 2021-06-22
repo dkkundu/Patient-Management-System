@@ -23,7 +23,7 @@ class CommonSignupForm(UserCreationForm):
         """Meta class"""
         model = USER_MODEL
         fields = [
-            'email'
+            'phone'
         ]
 
 

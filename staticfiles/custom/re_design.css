@@ -1,0 +1,38 @@
+.card{
+  display: inline-block;
+  margin: 10px;
+  boder: 1px solid #eee;
+  box-shadow: 0 2px 2px #333;
+  width:400px;
+  padding:20px;
+  border-radius: 8px;
+}
+
+.card:hover{
+  display: inline-block;
+  margin: 10px;
+  boder: 1px solid #eee;
+  box-shadow: 2px 4px 6px #333;
+  width:393px
+  padding:20px;
+  border-radius: 8px;
+}
+
+.row.select-register {
+    display: grid;
+    grid-template-columns: 11% 42% 8%;
+}
+.image-class_doctor {
+    width: 38%
+}
+.image-class {
+    width: 100%;
+}
+.vertical-card{
+    width:80%;
+    margin:70px auto;
+    margin-top: 41%;
+}
+h2.text-center.message {
+    margin-bottom: 4%;
+}

@@ -64,6 +64,7 @@ PLAGIN_APPS = [
     'debug_toolbar',
     'django_prometheus',
     'import_export',
+    'crispy_forms',
 
      
 ]
@@ -71,7 +72,8 @@ PLAGIN_APPS = [
 PROJECT_APPS = [
     'core.apps.CoreConfig',
     'hospital.apps.HospitalConfig',
-    'appointment.apps.AppointmentConfig'
+    'appointment.apps.AppointmentConfig',
+    'address.apps.AddressConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PLAGIN_APPS + PROJECT_APPS
