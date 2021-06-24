@@ -1,6 +1,10 @@
 from django.urls import path
 from . import views
 from . import registation_view
+from address.views import (
+    load_district,
+    load_upazila
+)
 
 
 urlpatterns = [
@@ -21,5 +25,7 @@ urlpatterns = [
     path(
         'registration/doctor/',
         registation_view.DoctorRegistration.as_view(), name="registration_doctor"
-    )
+    ),
+    path('load-district/', load_district, name='load_district'),
+    path('load-upazila/', load_upazila, name='load_upazila'),
 ]

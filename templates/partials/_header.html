@@ -67,12 +67,9 @@
                     </li>
                 {% else %}
                 <li><a class="appoint" href="#">Sign In</a></li>
+                <li><a class="appoint" href="{% url 'registration_type' %}">Registration</a></li>
                 {% endif %}
 
-
-
-
-                <li><a class="appoint" href="{% url 'registration_type' %}">Registration</a></li>
                 <li> <a id="menu-toggle" href="#" class="toggle"><img src="{% static 'heartcare/images/bars.png' %}"
                       alt=""></a> </li>
               </ul>

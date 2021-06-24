@@ -43,10 +43,12 @@ class Doctor(models.Model):
     )
     name = models.CharField(max_length=120)
     speciality = models.CharField(max_length=120)
-    picture = models.ImageField(upload_to="doctors/")
-    details = models.TextField()
-    experience = models.TextField()
-    expertize = models.ManyToManyField(to='Expertize', related_name='doctors')
+    picture = models.ImageField(
+        upload_to="doctors/", null=True
+    )
+    details = models.TextField(blank=True, null=True)
+    experience = models.TextField(blank=True, null=True)
+    expertize = models.ManyToManyField(to='Expertize', blank=True)
     twitter = models.CharField(max_length=120, blank=True, null=True)
     facebook = models.CharField(max_length=120, blank=True, null=True)
     instagram = models.CharField(max_length=120, blank=True, null=True)
