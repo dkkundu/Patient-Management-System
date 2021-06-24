@@ -79,7 +79,7 @@ class User(AbstractBaseUser, PermissionsMixin,
            ExportModelOperationsMixin('user')):
     """User model that supports using email instead of username"""
     email = models.EmailField(
-        _('Email Address'), max_length=255, unique=True, blank=True, null=True
+        _('Email Address'), max_length=255, blank=True, null=True
     )
     phone = models.CharField(
         _('Mobile Phone'), max_length=12, blank=True, null=True, unique=True,

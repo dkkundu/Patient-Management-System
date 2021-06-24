@@ -41,10 +41,10 @@ class Doctor(models.Model):
         settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
         blank=True, null=True, related_name="doctor"
     )
-    name = models.CharField(max_length=120)
-    speciality = models.CharField(max_length=120)
+    name = models.CharField(max_length=120, null=True, blank=True)
+    speciality = models.CharField(max_length=120, null=True, blank=True)
     picture = models.ImageField(
-        upload_to="doctors/", null=True
+        upload_to="doctors/", null=True, blank=True
     )
     details = models.TextField(blank=True, null=True)
     experience = models.TextField(blank=True, null=True)
@@ -80,7 +80,7 @@ class Doctor(models.Model):
     )
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     @property
     def get_full__address(self):

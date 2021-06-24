@@ -1,7 +1,22 @@
 .secound_save {
-    background: #f90e2e0d;
+    background: #0a775ed1;
     margin: 3% 0;
+    color: #fff;
+}
+.form-control {
+    background-color: #e0d9d9a8;
+}
+.secound_save_again {
+    background: #325167c4;
+    margin: 3% 0;
+    color: #fff;
+}
 
+.text-muted {
+    color: #fff6f6;
+}
+button.btn.btn-secondary {
+    color: #000;
 }
 .card-hover{
        box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.22);

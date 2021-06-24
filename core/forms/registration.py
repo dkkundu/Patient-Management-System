@@ -26,6 +26,11 @@ class CommonSignupForm(UserCreationForm):
             'phone'
         ]
 
+    def __init__(self, *args, **kwargs):
+        super(CommonSignupForm, self).__init__(*args, **kwargs)
+        self.fields["phone"].required = True
+
+
 
 class UpdateForm(forms.ModelForm):
     class Meta:

@@ -2,15 +2,54 @@ import logging
 from django.shortcuts import render, redirect , HttpResponseRedirect
 from django.urls import reverse_lazy
 from django.contrib import messages
-from django.views.generic import CreateView, TemplateView
+from django.views.generic import CreateView, View
 from hospital.models import Doctor
 from hospital.forms import DoctorForm
 from core.forms import CommonSignupForm
 logger = logging.getLogger(__name__)
 
 
-class RegistrationPages(TemplateView):
+class RegistrationPages(View):
     template_name = 'hospital/registation.html'
+
+    def get(self, request, *args, **kwargs):
+        context = {
+            "form": DoctorForm,
+            "signup": CommonSignupForm,
+            "form_patient": DoctorForm,
+            "signup_patient": CommonSignupForm,
+
+        }
+        return render(request, self.template_name, context)
+
+    def post(self, request, *args, **kwargs):
+        form = DoctorForm(request.POST, request.FILES or None)
+        signup_form = CommonSignupForm(request.POST or None)
+        if form.is_valid() and signup_form.is_valid():
+            try:
+                save_user = signup_form.save()
+                obj = form.save(commit=False)
+                obj.user = save_user
+                obj.save()
+                messages.success(self.request, "Account successfully created")
+                logger.debug(self.request, "Account successfully created")
+            except Exception as e:
+                logger.error(f"Unable to create account: {e}")
+                messages.warning(self.request, "Unable to create account")
+                logger.debug(self.request, "Unable to create account")
+        else:
+            print("signup_form-----", signup_form.errors)
+            print("form-----", form.errors)
+            messages.warning(self.request, "Invalid data")
+            logger.debug(self.request, "Unable to create account")
+
+        context = {
+            "form": form,
+            "signup": signup_form
+
+        }
+        return render(request, self.template_name, context)
+
 
 
 class DoctorRegistration(CreateView):
