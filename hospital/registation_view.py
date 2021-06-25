@@ -25,7 +25,24 @@ class RegistrationPages(View):
     def post(self, request, *args, **kwargs):
         form = DoctorForm(request.POST, request.FILES or None)
         signup_form = CommonSignupForm(request.POST or None)
-        if form.is_valid() and signup_form.is_valid():
+
+        form_patient = DoctorForm(request.POST, request.FILES or None)
+        signup_patient = CommonSignupForm(request.POST or None)
+
+        if form_patient.is_valid() and signup_patient.is_valid():
+            try:
+                save_user = signup_patient.save()
+                obj = form_patient.save(commit=False)
+                obj.user = save_user
+                obj.save()
+                messages.success(self.request, "Account successfully created")
+                logger.debug(self.request, "Account successfully created")
+            except Exception as e:
+                logger.error(f"Unable to create account: {e}")
+                messages.warning(self.request, "Unable to create account")
+                logger.debug(self.request, "Unable to create account")
+
+        elif form.is_valid() and signup_form.is_valid():
             try:
                 save_user = signup_form.save()
                 obj = form.save(commit=False)
@@ -38,14 +55,18 @@ class RegistrationPages(View):
                 messages.warning(self.request, "Unable to create account")
                 logger.debug(self.request, "Unable to create account")
         else:
-            print("signup_form-----", signup_form.errors)
-            print("form-----", form.errors)
+            print("signup_form Doctor-----", signup_form.errors)
+            print("form----- Doctor", form.errors)
+            print("form_patient-----", form_patient.errors)
+            print("CommonSignupForm-----", CommonSignupForm.errors)
             messages.warning(self.request, "Invalid data")
             logger.debug(self.request, "Unable to create account")
 
         context = {
             "form": form,
-            "signup": signup_form
+            "signup": signup_form,
+            "form_patient": DoctorForm,
+            "signup_patient": CommonSignupForm,
 
         }
         return render(request, self.template_name, context)

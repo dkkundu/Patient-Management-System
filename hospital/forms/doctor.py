@@ -24,6 +24,7 @@ class DoctorForm(forms.ModelForm):
         self.helper = FormHelper()
         # # self.helper.form_show_labels = False
         self.fields["name"].required = True
+        self.fields["picture"].required = True
 
 
 
