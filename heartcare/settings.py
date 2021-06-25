@@ -74,6 +74,7 @@ PROJECT_APPS = [
     'hospital.apps.HospitalConfig',
     'appointment.apps.AppointmentConfig',
     'address.apps.AddressConfig',
+    'patient_ms.apps.PatientMsConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PLAGIN_APPS + PROJECT_APPS
@@ -95,7 +96,7 @@ ROOT_URLCONF = 'heartcare.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATES_DIR,],
+        'DIRS': [TEMPLATES_DIR, ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

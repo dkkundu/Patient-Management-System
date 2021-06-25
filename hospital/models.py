@@ -100,63 +100,6 @@ class Doctor(models.Model):
         return save_present_address
 
 
-class Patient(models.Model):
-    user = models.OneToOneField(
-        settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
-        blank=True, null=True, related_name="patient"
-    )
-    name = models.CharField(max_length=120)
-    nid = models.CharField(max_length=120)
-
-    picture = models.ImageField(upload_to="patient/")
-    bio = models.TextField()
-    division = models.ForeignKey(
-        Division, models.SET_NULL,
-        related_name='patient_division',
-        null=True
-    )
-    district = models.ForeignKey(
-        District, models.SET_NULL,
-        related_name='patient_district',
-        null=True
-    )
-    upazila = models.ForeignKey(
-        Upazila, models.SET_NULL,
-        related_name='patient_upazila',
-        null=True
-    )
-    post_code = models.PositiveIntegerField(
-        null=True,
-        help_text='Numeric 4 digits (ex: 1234)',
-        validators=[RegexValidator(
-            r"^[\d]{4}$", message='Numeric 4 digits (ex: 1234)'
-        )]
-    )
-    address = models.TextField(
-        null=True, help_text='Ex: 2/17, Mirpur-11'
-    )
-
-    def __str__(self):
-        return self.name
-
-    @property
-    def get_full__address(self):
-        save_present_address = ''
-        if self.address:
-            save_present_address = ''.join(self.address)
-        if self.upazila:
-            save_present_address += f', {self.upazila} ,'
-        if self.district:
-            save_present_address += f' {self.district}'
-        if self.post_code:
-            save_present_address += f' - {self.post_code} ,'
-        if self.division:
-            save_present_address += f'{self.division} ,'
-        save_present_address += 'Bangladesh '
-
-        return save_present_address
-
-
 class Expertize(models.Model):
     name = models.CharField(max_length=120)
 
