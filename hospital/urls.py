@@ -23,9 +23,10 @@ urlpatterns = [
         registation_view.RegistrationPages.as_view(), name="registration_type"
     ),
     path(
-        'registration/doctor/',
-        registation_view.DoctorRegistration.as_view(), name="registration_doctor"
+        'login/',
+        views.LoginView.as_view(), name="login"
     ),
+
     path('load-district/', load_district, name='load_district'),
     path('load-upazila/', load_upazila, name='load_upazila'),
 ]

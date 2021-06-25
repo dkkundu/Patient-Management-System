@@ -2,19 +2,102 @@ from django.shortcuts import render, redirect
 from django.core.mail import send_mail
 from django.contrib import messages
 from .models import Slider, Service, Doctor, Faq, Gallery
-from django.views.generic import ListView, DetailView, TemplateView
+from django.views.generic import ListView, DetailView, TemplateView, View
+
+import logging
+from django.contrib.auth import authenticate, login
+from django.urls import reverse_lazy
+from hospital.forms import CustomLoginForm
+logger = logging.getLogger(__name__)
 
 
 class HomeView(ListView):
     template_name = 'hospital/index.html'
     queryset = Service.objects.all()
     context_object_name = 'services'
+    form_class = CustomLoginForm
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data()
         context['sliders'] = Slider.objects.all()
         context['experts'] = Doctor.objects.all()
+        context['form'] = self.form_class
         return context
+
+    def post(self, request):
+        form = self.form_class(self.request.POST)
+        if form.is_valid():
+            phone = form.cleaned_data['phone']
+            password = form.cleaned_data['password']
+            user = authenticate(phone=phone, password=password)
+
+            if user is not None and user.is_active:
+                login(request, user)
+                return redirect(self.get_success_url())
+            else:
+                messages.warning(
+                    self.request,
+                    "Invalid Phone Or Password"
+                )
+                context = {"form": self.form_class}
+                return render(request, self.template_name, context)
+        else:
+            messages.warning(self.request, "Invalid Data")
+            context = {"form": self.form_class}
+            return render(request, self.template_name, context)
+
+    def get_success_url(self):
+        messages.success(self.request,
+                         "Login successfully!")
+        logger.debug("Login successfully")
+        return reverse_lazy("index")
+
+
+class LoginView(View):
+    template_name = 'hospital/login.html'
+    queryset = Service.objects.all()
+    form_class = CustomLoginForm
+
+    def get(self, request):
+        context = {"form": self.form_class}
+        return render(request, self.template_name, context)
+
+    def post(self, request):
+        form = self.form_class(self.request.POST)
+        if form.is_valid():
+            phone = form.cleaned_data['phone']
+            password = form.cleaned_data['password']
+            user = authenticate(phone=phone, password=password)
+
+            if user is not None and user.is_active:
+                login(request, user)
+                return redirect(self.get_success_url())
+            else:
+                messages.warning(
+                    self.request,
+                    "Invalid Phone Or Password"
+                )
+                context = {"form": self.form_class}
+                return render(request, self.template_name, context)
+        else:
+            messages.warning(self.request, "Invalid Data")
+            context = {"form": self.form_class}
+            return render(request, self.template_name, context)
+
+    def get_success_url(self):
+        messages.success(self.request,
+                         "Login successfully!")
+        logger.debug("Login successfully")
+        return reverse_lazy("index")
+
+
+
+
+
+
+
+
+
 
 
 class ServiceListView(ListView):

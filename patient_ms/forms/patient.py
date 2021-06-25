@@ -16,3 +16,4 @@ class PatientForm(forms.ModelForm):
         super(PatientForm, self).__init__(*args, **kwargs)
         self.fields["name"].required = True
         self.fields["age"].required = True
+        self.fields["nid"].required = True
