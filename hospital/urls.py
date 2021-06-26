@@ -26,6 +26,11 @@ urlpatterns = [
         'login/',
         views.LoginView.as_view(), name="login"
     ),
+    path(
+        'logout/',
+        views.logout_request, name="logout"
+    ),
+
 
     path('load-district/', load_district, name='load_district'),
     path('load-upazila/', load_upazila, name='load_upazila'),
