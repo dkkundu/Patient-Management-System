@@ -2,6 +2,7 @@ from django.db import models
 from django.conf import settings
 from django.core.validators import RegexValidator
 from address.models import District, Division, Upazila
+from django.utils.translation import gettext_lazy as _
 
 
 class Slider(models.Model):
@@ -124,3 +125,31 @@ class Gallery(models.Model):
 
     class Meta:
         verbose_name_plural = "Galleries"
+
+
+class Contact(models.Model):
+    name = models.CharField(
+        max_length=120, null=True, blank=True
+    )
+    email = models.EmailField(
+        _('Email Address'), max_length=255, blank=True, null=True
+    )
+    phone = models.CharField(
+        _('Mobile Phone'), max_length=12, unique=True,
+        validators=[RegexValidator(  # min: 10, max: 12 characters
+            r'^[\d]{10,12}$', message='Format (ex: 0123456789)'
+        )]
+    )
+    subject = models.CharField(
+        max_length=120, null=True
+    )
+
+    message = models.TextField(
+        blank=True, null=True
+    )
+    response = models.BooleanField(
+        default=False
+    )
+
+    def __str__(self):
+        return str(self.name)

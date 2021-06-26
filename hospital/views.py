@@ -3,7 +3,7 @@ from django.core.mail import send_mail
 from django.contrib import messages
 from .models import Slider, Service, Doctor, Faq, Gallery
 from django.views.generic import ListView, DetailView, TemplateView, View
-
+from hospital.models import Contact
 import logging
 from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse_lazy
@@ -69,14 +69,6 @@ def logout_request(request):
     return redirect("/")
 
 
-
-
-
-
-
-
-
-
 class ServiceListView(ListView):
     queryset = Service.objects.all()
     template_name = "hospital/services.html"
@@ -130,16 +122,18 @@ class ContactView(TemplateView):
         message = request.POST.get('message')
 
         if subject == '':
-            subject = "Heartcare Contact"
+            subject = "INFO"
 
         if name and message and email and phone:
-            send_mail(
-                subject+"-"+phone,
-                message,
-                email,
-                ['expelmahmud@gmail.com'],
-                fail_silently=False,
-            )
-            messages.success(request, " Email hasbeen sent successfully...")
+            try:
+                Contact.objects.create(
+                    name=name, email=email,
+                    phone=phone, subject=subject,
+                    message=message
+                )
+                messages.success(request, "Submit")
+            except Exception as e:
+                logger.debug(request, f"Unable to take This request {e} ")
+                messages.success(request, " Unable to take This request")
 
         return redirect('contact')
