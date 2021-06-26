@@ -9,6 +9,7 @@ from address.views import (
 
 urlpatterns = [
     path('', views.HomeView.as_view(), name='index'),
+    path('dashboard/', views.DoctorDashboard.as_view(), name='doctor_dashboard'),
     path('services/', views.ServiceListView.as_view(), name="services"),
     path('services/<int:pk>/', views.ServiceDetailView.as_view(),
          name="service_details"),

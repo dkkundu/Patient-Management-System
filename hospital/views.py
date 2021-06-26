@@ -11,6 +11,10 @@ from hospital.forms import CustomLoginForm
 logger = logging.getLogger(__name__)
 
 
+class DoctorDashboard(TemplateView):
+    template_name = 'dashboard/dashboard.html'
+
+
 class HomeView(ListView):
     template_name = 'hospital/index.html'
     queryset = Service.objects.all()
