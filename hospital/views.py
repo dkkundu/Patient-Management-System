@@ -4,6 +4,7 @@ from django.contrib import messages
 from .models import Slider, Service, Doctor, Faq, Gallery
 from django.views.generic import ListView, DetailView, TemplateView, View
 from hospital.models import Contact
+from patient_ms.models import Patient
 import logging
 from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse_lazy
@@ -13,6 +14,13 @@ logger = logging.getLogger(__name__)
 
 class DoctorDashboard(TemplateView):
     template_name = 'dashboard/dashboard.html'
+
+    def get_context_data(self, **kwargs):
+        kwargs = super(DoctorDashboard, self).get_context_data(**kwargs)
+        kwargs["doctor"] = Doctor.objects.get(user=self.request.user)
+        kwargs["doctor_count"] = Doctor.objects.all().count()
+        kwargs["patient_count"] = Patient.objects.all().count()
+        return kwargs
 
 
 class HomeView(ListView):
@@ -26,6 +34,19 @@ class HomeView(ListView):
         context['sliders'] = Slider.objects.all()
         context['experts'] = Doctor.objects.all()
         context['form'] = self.form_class
+        try:
+            doctor = Doctor.objects.get(user=self.request.user)
+            if doctor:
+                context['object'] = doctor
+        except Exception as e:
+            logger.debug(self.request, f"Doctor profile Not available {e}")
+
+        try:
+            patient = Patient.objects.get(user=self.request.user)
+            if patient:
+                context['object'] = patient
+        except Exception as e:
+            logger.debug(self.request, f"patient profile Not available {e}")
         return context
 
 

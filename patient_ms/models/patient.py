@@ -18,6 +18,9 @@ class Patient(models.Model):
         settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
         blank=True, null=True, related_name="patient"
     )
+    picture = models.ImageField(
+        upload_to="Patient/", null=True, blank=True
+    )
     name = models.CharField(
     _("Patient Name"), max_length=120, null=True, blank=True
     )

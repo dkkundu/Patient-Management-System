@@ -75,12 +75,14 @@
     <aside class="app-sidebar">
 
       {% if doctor %}
+                  <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{{ doctor.picture.url }}" style="width:55px; hight:70px" alt="User Image">
       {% else %}
-            <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{% static 'image/doctor.jpg' %}" style="width:70px; hight:70px" alt="User Image">
+            <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{% static 'image/doctor.jpg' %}" style="width:55px; hight:70px" alt="User Image">
       {% endif %}
         <div>
           <p class="app-sidebar__user-name">
             {% if doctor %}
+            {{ doctor.name }}
             {% else %}
             Mr. DK Kundu</p>
           {% endif %}
@@ -149,7 +151,7 @@
           <div class="widget-small warning coloured-icon"><i class="icon fa fa-users fa-3x"></i>
             <div class="info">
               <h4>Total Patient</h4>
-              <p><b>10</b></p>
+              <p><b>{{ patient_count }}</b></p>
             </div>
           </div>
         </div>
@@ -157,7 +159,7 @@
           <div class="widget-small danger coloured-icon"><i class="icon fa fas fa-user-md fa-3x"></i>
             <div class="info">
               <h4>Total Doctor</h4>
-              <p><b>500</b></p>
+              <p><b>{{ doctor_count }}</b></p>
             </div>
           </div>
         </div>
