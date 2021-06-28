@@ -1,4 +1,5 @@
 {% load static %}
+{% load group_checker_tag %}
 <header class="site-header">
     <div class="top-bar">
         <div class="container">
@@ -73,7 +74,13 @@
 
                                     </li>
                                     <ul class="dropdown-menu">
-                                        <li><a href="{% url 'doctor_dashboard' %}">Dashboard</a></li>
+                                        {% if user|is_doctor %}
+                                            <li><a href="{% url 'doctor_dashboard' %}">Dashboard</a></li>
+                                        {% endif %}
+
+                                        {% if user|is_patient %}
+                                            <li><a href="#">Profile Update</a></li>
+                                        {% endif %}
                                         <li><a href="{% url 'logout' %}">Logout</a></li>
 
                                     </ul>

@@ -1,5 +1,9 @@
-from .patient import PatientForm
+from .patient import (
+    PatientForm,
+    PatientUpdateForm
+)
 
 __all__ = [
-    PatientForm
+    PatientForm,
+    PatientUpdateForm
 ]
