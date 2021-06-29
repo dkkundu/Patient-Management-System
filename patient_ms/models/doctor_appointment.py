@@ -23,6 +23,9 @@ class DoctorAppointment(models.Model):
     appointment_time = models.DateTimeField(
         _('Appointment Time'), null=True, blank=True
     )
+    appointment_close_time = models.DateTimeField(
+        _('Appointment Close Time'), null=True, blank=True
+    )
     serial_number = models.PositiveIntegerField(
         _('Serial Number'), default=0
     )
