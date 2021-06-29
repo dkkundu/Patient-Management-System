@@ -19,6 +19,7 @@ class PatientInfoUpdate(
     template_name = 'patient/update_patient.html'
     model = Patient
     form_class = PatientUpdateForm
+    permission_required = 'patient_ms.add_patient'
 
     def test_func(self):
         """Tests if the user is active"""
@@ -27,4 +28,4 @@ class PatientInfoUpdate(
     def get_success_url(self):
         messages.success(self.request, "Successfully Updated")
         logger.debug("Successfully Updated")
-        return reverse_lazy("drop_calendar:calender_view")
+        return reverse_lazy("index")

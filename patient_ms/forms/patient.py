@@ -30,6 +30,26 @@ class PatientUpdateForm(forms.ModelForm):
             "post_code",
         ]
 
+        widgets = {
+            'division': forms.Select(attrs={
+                'id': 'division'
+            }),
+            'district': forms.Select(attrs={
+                'id': 'district'
+            }),
+            'upazila': forms.Select(attrs={
+                'id': 'upazila'
+            }),
+            'post_code': forms.TextInput(attrs={
+                'id': 'post_code'
+            }),
+            'address': forms.Textarea(attrs={
+                'id': 'address',
+                'rows': 2
+            }),
+
+        }
+
     def __init__(self, *args, **kwargs):
         super(PatientUpdateForm, self).__init__(*args, **kwargs)
         self.fields["age"].required = True

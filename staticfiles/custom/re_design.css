@@ -86,3 +86,19 @@ form#login {
     position: relative;
     padding: 55px;
 }
+
+
+.rotate-update-p {
+    border: 2px solid #d02537;
+    color: #d02537;
+    margin-bottom: 26px;
+    margin-top: 18px;
+}
+
+.rotate-update-p:hover::before {
+    transform: rotate(0deg);
+}
+.rotate-update-p:hover {
+    color: #fff;
+    background: #bf0311;
+}

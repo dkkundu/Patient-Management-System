@@ -45,6 +45,7 @@ class HomeView(ListView):
             patient = Patient.objects.get(user=self.request.user)
             if patient:
                 context['object'] = patient
+                context['patient'] = patient
         except Exception as e:
             logger.debug(self.request, f"patient profile Not available {e}")
         return context

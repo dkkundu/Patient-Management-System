@@ -61,10 +61,12 @@
                             <ul class="nav navbar-nav navbar-right">
 
                                 {% if user.is_authenticated %}
+                                <li><a class="appoint" href="{% url 'login' %}">Appointment</a></li>
+
                                 <li class="dropdown">
                                     <li href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                        aria-haspopup="true" aria-expanded="false">
-                                        {% if object %}
+                                        {% if object.picture %}
                                         <img src="{{ object.picture.url }}"
                                              width="40" height="40" class="rounded-circle">
                                         {% else %}
@@ -79,7 +81,9 @@
                                         {% endif %}
 
                                         {% if user|is_patient %}
-                                            <li><a href="#">Profile Update</a></li>
+                                        {% if patient %}
+                                            <li><a href="{% url 'patient_ms:patient_info_update' pk=patient.pk%}">Profile Update</a></li>
+                                        {% endif %}
                                         {% endif %}
                                         <li><a href="{% url 'logout' %}">Logout</a></li>
 
