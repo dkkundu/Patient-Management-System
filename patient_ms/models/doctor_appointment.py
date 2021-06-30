@@ -20,6 +20,9 @@ class DoctorAppointment(models.Model):
         Doctor, on_delete=models.SET_NULL,
         blank=True, null=True,
     )
+    problem = models.CharField(
+        _("Problem"), max_length=500, null=True, blank=True
+    )
     appointment_time = models.DateTimeField(
         _('Appointment Time'), null=True, blank=True
     )
@@ -30,7 +33,7 @@ class DoctorAppointment(models.Model):
         _('Serial Number'), default=0
     )
     is_visited = models.BooleanField(
-        _('Is Doctor Check'),default=False
+        _('Is Doctor Check'), default=False
     )
 
     def __str__(self):

@@ -1,15 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load crispy_forms_tags %}
 {% block maincontent %}
 <!--inner banner-->
-{% if messages %}
-<div class="alert alert-success text-center" id="alert-msg">
-  {% for message in messages %}
-  <h3>{{ message }}</h3>
-  {% endfor %}
-</div>
-{% endif %}
-
 <div class="inner-banner">
   <div class="container">
     <div class="row">
@@ -37,37 +30,12 @@
           <form action="{% url 'appointment' %}" method="post">
             {% csrf_token %}
             <div class="app-form">
-              <div class="col-md-6 col-sm-6">
-                <input class="form-control" placeholder="Full Name *" type="text" name="name">
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <input class="form-control" placeholder="Your Phone *" type="text" name="phone">
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <input class="form-control" placeholder="Your Email *" type="text" name="email">
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <select name="doctor">
-                  <option disabled>--Doctor--</option>
-                  {% for doctor in doctors %}
-                  <option value="{{ doctor.id }}">{{ doctor.name }}</option>
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <div class="input-group date">
-                  <input placeholder="Date *" name="date" class="form-control" type="date">
-                  <span class="input-group-addon"> <i class="fa fa-calendar" aria-hidden="true"></i> </span> </div>
-              </div>
-              <div class="col-md-6 col-sm-6">
-                <select name="time">
-                  <option disabled>--Time--</option>
-                  <option value="morning">Morning</option>
-                  <option value="morning">Evening</option>
-                </select>
-              </div>
+              {{ form|crispy }}
+
+
+
+
               <div class="col-md-12 text-center">
-                <textarea placeholder="Extra Note" name="note"></textarea>
                 <input value="Book Appointment" type="submit">
               </div>
             </div>
