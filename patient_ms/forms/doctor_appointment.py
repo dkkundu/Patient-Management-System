@@ -16,6 +16,4 @@ class DoctorAppointmentForm(forms.ModelForm):
         super(DoctorAppointmentForm, self).__init__(*args, **kwargs)
         self.fields['doctor'].required = True
         self.fields['appointment_time'].required = True
-        self.fields['appointment_time'].widget.attrs['placeholder'] = 'Appointment Time (YY-MM-DD H:M)'
-
 

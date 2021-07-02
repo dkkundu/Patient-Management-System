@@ -63,6 +63,7 @@ PLAGIN_APPS = [
     'django_prometheus',
     'import_export',
     'crispy_forms',
+    'bootstrap_datepicker_plus',
 
 ]
 
@@ -161,6 +162,9 @@ AUTH_USER_MODEL = 'core.User'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+BOOTSTRAP4 = {
+    'include_jquery': True,
+}
 STATIC_URL = '/static/'
 STATIC_ROOT = STATIC_DIR
 STATICFILES_DIRS = [STATICFILES_DIR, ]

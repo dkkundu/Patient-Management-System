@@ -1,16 +1,11 @@
-import json
 import logging
 
-from django.http import JsonResponse
 from django.urls import reverse_lazy
 from django.views.generic import CreateView
 from django.contrib.auth.mixins import (
     UserPassesTestMixin, LoginRequiredMixin, PermissionRequiredMixin
 )
-from django.contrib.auth.decorators import login_required
 from django.contrib import messages
-from django.shortcuts import render, redirect
-import datetime
 from patient_ms.models import DoctorAppointment
 from patient_ms.forms import DoctorAppointmentForm
 
