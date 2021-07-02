@@ -88,6 +88,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django_prometheus.middleware.PrometheusAfterMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 ROOT_URLCONF = 'heartcare.urls'
 
@@ -167,7 +168,8 @@ BOOTSTRAP4 = {
 }
 STATIC_URL = '/static/'
 STATIC_ROOT = STATIC_DIR
-STATICFILES_DIRS = [STATICFILES_DIR, ]
+
+STATICFILES_DIRS = [STATIC_DIR, ]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = MEDIA_DIR
 
