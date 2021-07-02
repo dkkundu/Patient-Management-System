@@ -1,6 +1,6 @@
 import datetime
 import os
-
+import django_heroku
 # from heartcare.jazzmin import CONFIG
 from heartcare.local_settings import (
     SECRET_KEY, TEMPLATES_DIR, STATICFILES_DIR, STATIC_DIR, MEDIA_DIR,
@@ -178,3 +178,6 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'your email'
 EMAIL_HOST_PASSWORD = 'your password'
+
+
+django_heroku.settings(locals())
