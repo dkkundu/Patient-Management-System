@@ -1,0 +1,1027 @@
+2021-06-28 00:00:58,708 INFO autoreload 32729 140433637738304 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:01:01,154 INFO autoreload 32838 140291328665408 Watching for file changes with StatReloader
+2021-06-28 00:01:19,258 INFO autoreload 32838 140291328665408 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:01:21,422 INFO autoreload 32868 140712990086976 Watching for file changes with StatReloader
+2021-06-28 00:01:24,146 WARNING log 32868 140712908363328 Not Found: /favicon.ico
+2021-06-28 00:01:42,385 INFO autoreload 32868 140712990086976 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:01:44,761 INFO autoreload 32892 140609306793792 Watching for file changes with StatReloader
+2021-06-28 00:01:57,352 INFO autoreload 32892 140609306793792 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:01:59,609 INFO autoreload 32907 139844822628160 Watching for file changes with StatReloader
+2021-06-28 00:02:41,837 INFO autoreload 32907 139844822628160 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:02:44,131 INFO autoreload 32977 140439017211712 Watching for file changes with StatReloader
+2021-06-28 00:02:54,093 INFO autoreload 32977 140439017211712 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:02:56,289 INFO autoreload 33014 139841986119488 Watching for file changes with StatReloader
+2021-06-28 00:04:37,621 INFO autoreload 33014 139841986119488 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:04:39,544 INFO autoreload 33152 140510143043392 Watching for file changes with StatReloader
+2021-06-28 00:04:46,917 WARNING log 33152 140509955733056 Not Found: /favicon.ico
+2021-06-28 00:05:01,678 INFO autoreload 33152 140510143043392 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:05:03,817 INFO autoreload 33175 140545313265472 Watching for file changes with StatReloader
+2021-06-28 00:05:10,429 INFO autoreload 33175 140545313265472 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:05:12,758 INFO autoreload 33191 139665977501504 Watching for file changes with StatReloader
+2021-06-28 00:05:55,657 INFO autoreload 33191 139665977501504 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:05:57,710 INFO autoreload 33242 139906435880768 Watching for file changes with StatReloader
+2021-06-28 00:06:05,825 WARNING log 33242 139906269570624 Not Found: /favicon.ico
+2021-06-28 00:06:10,677 INFO autoreload 33242 139906435880768 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:06:12,736 INFO autoreload 33267 140046446417728 Watching for file changes with StatReloader
+2021-06-28 00:06:29,520 INFO autoreload 33267 140046446417728 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:06:31,539 INFO autoreload 33293 139815706556224 Watching for file changes with StatReloader
+2021-06-28 00:08:32,067 INFO autoreload 33293 139815706556224 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:08:34,405 INFO autoreload 33415 139786749867840 Watching for file changes with StatReloader
+2021-06-28 00:09:06,482 INFO autoreload 33415 139786749867840 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:09:08,820 INFO autoreload 33438 139774862284608 Watching for file changes with StatReloader
+2021-06-28 00:09:32,800 INFO autoreload 33438 139774862284608 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:09:34,968 INFO autoreload 33458 139725885511488 Watching for file changes with StatReloader
+2021-06-28 00:09:47,935 INFO autoreload 33458 139725885511488 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:09:50,293 INFO autoreload 33467 140662104110912 Watching for file changes with StatReloader
+2021-06-28 00:10:31,232 INFO autoreload 33467 140662104110912 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:10:33,135 INFO autoreload 33492 139636018018112 Watching for file changes with StatReloader
+2021-06-28 00:10:39,444 INFO autoreload 33492 139636018018112 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:10:41,480 INFO autoreload 33499 139899573593920 Watching for file changes with StatReloader
+2021-06-28 00:10:49,102 INFO autoreload 33499 139899573593920 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:10:51,060 INFO autoreload 33515 139826488903488 Watching for file changes with StatReloader
+2021-06-28 00:11:57,634 INFO autoreload 33515 139826488903488 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:11:59,807 INFO autoreload 33547 140112079750976 Watching for file changes with StatReloader
+2021-06-28 00:12:06,211 INFO autoreload 33547 140112079750976 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:12:08,201 INFO autoreload 33556 139728476124992 Watching for file changes with StatReloader
+2021-06-28 00:12:12,723 INFO autoreload 33556 139728476124992 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:12:14,666 INFO autoreload 33561 140536544540480 Watching for file changes with StatReloader
+2021-06-28 00:12:25,144 INFO autoreload 33561 140536544540480 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:12:27,382 INFO autoreload 33571 140238704887616 Watching for file changes with StatReloader
+2021-06-28 00:12:45,274 INFO autoreload 33571 140238704887616 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:12:47,342 INFO autoreload 33590 140657257707328 Watching for file changes with StatReloader
+2021-06-28 00:13:00,404 INFO autoreload 33590 140657257707328 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:13:02,726 INFO autoreload 33597 140066111424320 Watching for file changes with StatReloader
+2021-06-28 00:13:44,701 INFO autoreload 33597 140066111424320 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:13:47,002 INFO autoreload 33650 140527433090880 Watching for file changes with StatReloader
+2021-06-28 00:13:55,821 INFO autoreload 33650 140527433090880 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:13:57,993 INFO autoreload 33661 140407819401024 Watching for file changes with StatReloader
+2021-06-28 00:14:29,480 INFO autoreload 33661 140407819401024 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:14:31,624 INFO autoreload 33696 139935941203776 Watching for file changes with StatReloader
+2021-06-28 00:16:08,253 INFO autoreload 33696 139935941203776 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:16:10,520 INFO autoreload 33756 139973058905920 Watching for file changes with StatReloader
+2021-06-28 00:19:59,049 INFO autoreload 33756 139973058905920 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:20:01,198 INFO autoreload 34029 140699963750208 Watching for file changes with StatReloader
+2021-06-28 00:20:13,838 WARNING log 34029 140699872847424 Not Found: /favicon.ico
+2021-06-28 00:21:36,088 INFO autoreload 34029 140699963750208 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:21:38,513 INFO autoreload 34133 140078966953792 Watching for file changes with StatReloader
+2021-06-28 00:22:00,495 WARNING log 34133 140078814852672 Not Found: /dashboard/docs.html
+2021-06-28 00:23:53,727 INFO autoreload 34133 140078966953792 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/dashboard changed, reloading.
+2021-06-28 00:23:56,146 INFO autoreload 34264 140289142241088 Watching for file changes with StatReloader
+2021-06-28 00:25:15,532 INFO autoreload 34264 140289142241088 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:25:17,423 INFO autoreload 34381 140212079146816 Watching for file changes with StatReloader
+2021-06-28 00:25:39,111 INFO autoreload 34381 140212079146816 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:25:41,026 INFO autoreload 34393 140516834883392 Watching for file changes with StatReloader
+2021-06-28 00:25:47,020 INFO autoreload 34393 140516834883392 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:25:49,337 INFO autoreload 34395 140079400527680 Watching for file changes with StatReloader
+2021-06-28 00:26:13,675 INFO autoreload 34395 140079400527680 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:26:15,918 INFO autoreload 34408 140345130510144 Watching for file changes with StatReloader
+2021-06-28 00:26:30,443 INFO autoreload 34408 140345130510144 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:26:32,711 INFO autoreload 34419 140684376328000 Watching for file changes with StatReloader
+2021-06-28 00:26:37,365 INFO autoreload 34419 140684376328000 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:26:39,667 INFO autoreload 34426 140024857360192 Watching for file changes with StatReloader
+2021-06-28 00:27:01,933 INFO autoreload 34426 140024857360192 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:27:04,313 INFO autoreload 34436 140507041138496 Watching for file changes with StatReloader
+2021-06-28 00:27:41,259 INFO autoreload 34436 140507041138496 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:27:43,481 INFO autoreload 34469 139798938187584 Watching for file changes with StatReloader
+2021-06-28 00:28:51,301 ERROR log 34469 139798856463936 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py", line 37, in get_context_data
+    doctor = Doctor.objects.filter(user=self.request.user)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1391, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1410, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1318, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1147, in check_related_objects
+    for v in value:
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+2021-06-28 00:28:58,895 ERROR log 34469 139798856463936 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py", line 37, in get_context_data
+    doctor = Doctor.objects.filter(user=self.request.user)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 941, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 961, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 968, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1391, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1410, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1318, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/query.py", line 1147, in check_related_objects
+    for v in value:
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/utils/functional.py", line 247, in inner
+    return func(self._wrapped, *args)
+TypeError: 'AnonymousUser' object is not iterable
+2021-06-28 00:30:49,312 INFO autoreload 34469 139798938187584 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:30:51,605 INFO autoreload 34607 140254978815808 Watching for file changes with StatReloader
+2021-06-28 00:31:03,087 WARNING log 34607 140254897092160 Not Found: /dashboard/page-login.html
+2021-06-28 00:34:21,930 INFO autoreload 34607 140254978815808 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:34:24,115 INFO autoreload 34770 139706214201152 Watching for file changes with StatReloader
+2021-06-28 00:34:41,591 INFO autoreload 34770 139706214201152 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:34:43,673 INFO autoreload 34781 139893651593024 Watching for file changes with StatReloader
+2021-06-28 00:34:47,983 INFO autoreload 34781 139893651593024 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:34:50,010 INFO autoreload 34785 140326342833984 Watching for file changes with StatReloader
+2021-06-28 00:34:54,591 INFO autoreload 34785 140326342833984 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:34:56,660 INFO autoreload 34790 140560761145152 Watching for file changes with StatReloader
+2021-06-28 00:35:13,951 INFO autoreload 34790 140560761145152 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:35:16,446 INFO autoreload 34800 140044064311104 Watching for file changes with StatReloader
+2021-06-28 00:35:38,021 INFO autoreload 34800 140044064311104 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/models/patient.py changed, reloading.
+2021-06-28 00:35:40,112 INFO autoreload 34820 139626730514240 Watching for file changes with StatReloader
+2021-06-28 00:35:56,480 INFO autoreload 34820 139626730514240 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:35:58,584 INFO autoreload 34843 140068059924288 Watching for file changes with StatReloader
+2021-06-28 00:36:04,299 INFO autoreload 34843 140068059924288 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:36:06,162 INFO autoreload 34853 139663693317952 Watching for file changes with StatReloader
+2021-06-28 00:36:30,130 INFO autoreload 34853 139663693317952 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:36:32,100 INFO autoreload 34879 140436048893760 Watching for file changes with StatReloader
+2021-06-28 00:37:20,874 INFO autoreload 34879 140436048893760 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:37:23,133 INFO autoreload 34909 140088964048704 Watching for file changes with StatReloader
+2021-06-28 00:37:43,051 INFO autoreload 34909 140088964048704 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:37:45,047 INFO autoreload 34938 140511548331840 Watching for file changes with StatReloader
+2021-06-28 00:38:38,469 INFO autoreload 34938 140511548331840 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:38:40,835 INFO autoreload 34970 140437721130816 Watching for file changes with StatReloader
+2021-06-28 00:38:45,357 INFO autoreload 34970 140437721130816 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:38:47,343 INFO autoreload 34977 140597439448896 Watching for file changes with StatReloader
+2021-06-28 00:39:34,280 INFO autoreload 34977 140597439448896 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:39:36,387 INFO autoreload 35023 139853504522048 Watching for file changes with StatReloader
+2021-06-28 00:39:52,024 INFO autoreload 35023 139853504522048 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:39:54,245 INFO autoreload 35038 140096413738816 Watching for file changes with StatReloader
+2021-06-28 00:40:23,893 WARNING log 35038 140096263157312 Not Found: /favicon.ico
+2021-06-28 00:40:49,133 INFO autoreload 35038 140096413738816 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:40:51,171 INFO autoreload 35087 139995394225984 Watching for file changes with StatReloader
+2021-06-28 00:41:27,511 INFO autoreload 35087 139995394225984 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:41:29,590 INFO autoreload 35098 139711401350976 Watching for file changes with StatReloader
+2021-06-28 00:43:11,025 INFO autoreload 35098 139711401350976 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:43:13,262 INFO autoreload 35152 140041565820736 Watching for file changes with StatReloader
+2021-06-28 00:43:37,430 INFO autoreload 35152 140041565820736 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:43:39,516 INFO autoreload 35193 139871550617408 Watching for file changes with StatReloader
+2021-06-28 00:43:44,115 INFO autoreload 35193 139871550617408 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:43:46,383 INFO autoreload 35201 140488590636864 Watching for file changes with StatReloader
+2021-06-28 00:46:34,121 INFO autoreload 35201 140488590636864 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:46:36,160 INFO autoreload 35290 140123718403904 Watching for file changes with StatReloader
+2021-06-28 00:46:43,416 INFO autoreload 35290 140123718403904 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 00:46:45,414 INFO autoreload 35294 140489157039936 Watching for file changes with StatReloader
+2021-06-28 00:47:20,072 WARNING log 35294 140488824833600 Not Found: /favicon.ico
+2021-06-28 00:48:26,644 INFO autoreload 35294 140489157039936 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:48:28,847 INFO autoreload 35381 140266105403200 Watching for file changes with StatReloader
+2021-06-28 00:50:58,171 INFO autoreload 35381 140266105403200 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:51:00,175 INFO autoreload 35510 140040188020544 Watching for file changes with StatReloader
+2021-06-28 00:51:32,870 INFO autoreload 35510 140040188020544 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:51:34,832 INFO autoreload 35546 140213886719808 Watching for file changes with StatReloader
+2021-06-28 00:51:52,745 INFO autoreload 35546 140213886719808 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:51:55,283 INFO autoreload 35558 140431782336320 Watching for file changes with StatReloader
+2021-06-28 00:52:23,195 INFO autoreload 35558 140431782336320 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:52:25,681 INFO autoreload 35588 140034327570240 Watching for file changes with StatReloader
+2021-06-28 00:52:35,736 INFO autoreload 35588 140034327570240 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:52:37,854 INFO autoreload 35595 140652500870976 Watching for file changes with StatReloader
+2021-06-28 00:53:18,824 INFO autoreload 35595 140652500870976 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:53:21,495 INFO autoreload 35628 140132123764544 Watching for file changes with StatReloader
+2021-06-28 00:53:30,438 INFO autoreload 35628 140132123764544 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:53:32,313 INFO autoreload 35637 139784277432128 Watching for file changes with StatReloader
+2021-06-28 00:53:48,349 INFO autoreload 35696 140631777625920 Watching for file changes with StatReloader
+2021-06-28 00:54:28,530 INFO autoreload 35696 140631777625920 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:54:30,841 INFO autoreload 35738 140577473550144 Watching for file changes with StatReloader
+2021-06-28 00:54:36,921 INFO autoreload 35738 140577473550144 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:54:38,935 INFO autoreload 35745 139871996335936 Watching for file changes with StatReloader
+2021-06-28 00:55:14,570 INFO autoreload 35745 139871996335936 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:55:16,960 INFO autoreload 35779 140665671165760 Watching for file changes with StatReloader
+2021-06-28 00:55:32,094 INFO autoreload 35779 140665671165760 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:55:33,968 INFO autoreload 35789 140040309188416 Watching for file changes with StatReloader
+2021-06-28 00:55:59,508 INFO autoreload 35789 140040309188416 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:56:01,404 INFO autoreload 35808 140717527758656 Watching for file changes with StatReloader
+2021-06-28 00:56:18,882 INFO autoreload 35808 140717527758656 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:56:21,141 INFO autoreload 35820 139711039076160 Watching for file changes with StatReloader
+2021-06-28 00:56:25,612 INFO autoreload 35820 139711039076160 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:56:27,530 INFO autoreload 35828 140152564217664 Watching for file changes with StatReloader
+2021-06-28 00:56:48,001 INFO autoreload 35828 140152564217664 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:56:49,918 INFO autoreload 35856 140643728090944 Watching for file changes with StatReloader
+2021-06-28 00:56:55,333 INFO autoreload 35856 140643728090944 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:56:57,779 INFO autoreload 35862 140427123234624 Watching for file changes with StatReloader
+2021-06-28 00:57:10,349 INFO autoreload 35862 140427123234624 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:57:12,364 INFO autoreload 35912 140020772525888 Watching for file changes with StatReloader
+2021-06-28 00:57:13,813 INFO views 35912 140020690802240 patient profile Not available Patient matching query does not exist.
+2021-06-28 00:58:24,825 INFO autoreload 35912 140020772525888 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:58:27,288 INFO autoreload 36077 139957596124992 Watching for file changes with StatReloader
+2021-06-28 00:58:32,114 INFO autoreload 36077 139957596124992 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-28 00:58:34,161 INFO autoreload 36084 140295238965056 Watching for file changes with StatReloader
+2021-06-28 00:59:41,043 WARNING log 36084 140295147537984 Not Found: /favicon.ico
+2021-06-28 22:41:23,438 INFO autoreload 31869 140053687547712 Watching for file changes with StatReloader
+2021-06-28 22:45:17,747 INFO autoreload 31869 140053687547712 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:45:19,856 INFO autoreload 32089 140602440283968 Watching for file changes with StatReloader
+2021-06-28 22:45:28,782 INFO autoreload 32089 140602440283968 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:45:30,887 INFO autoreload 32100 140450574542656 Watching for file changes with StatReloader
+2021-06-28 22:45:35,242 INFO autoreload 32100 140450574542656 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:45:37,666 INFO autoreload 32105 140395467421504 Watching for file changes with StatReloader
+2021-06-28 22:45:58,229 INFO autoreload 32105 140395467421504 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:46:00,405 INFO autoreload 32113 140600495679296 Watching for file changes with StatReloader
+2021-06-28 22:46:06,155 INFO autoreload 32113 140600495679296 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:46:08,705 INFO autoreload 32121 140183929767744 Watching for file changes with StatReloader
+2021-06-28 22:46:13,308 INFO autoreload 32121 140183929767744 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:46:15,667 INFO autoreload 32129 140186785597248 Watching for file changes with StatReloader
+2021-06-28 22:46:20,359 INFO autoreload 32129 140186785597248 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:46:23,146 INFO autoreload 32138 139652024063808 Watching for file changes with StatReloader
+2021-06-28 22:46:39,485 INFO autoreload 32138 139652024063808 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:46:41,996 INFO autoreload 32147 140111591941952 Watching for file changes with StatReloader
+2021-06-28 22:46:50,680 INFO autoreload 32147 140111591941952 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 22:46:52,667 INFO autoreload 32154 140042788783936 Watching for file changes with StatReloader
+2021-06-28 22:48:42,453 INFO autoreload 32154 140042788783936 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:48:44,980 INFO autoreload 32202 140515740161856 Watching for file changes with StatReloader
+2021-06-28 22:49:12,434 INFO autoreload 32202 140515740161856 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:49:14,646 INFO autoreload 32234 139930578376512 Watching for file changes with StatReloader
+2021-06-28 22:49:59,152 INFO autoreload 32234 139930578376512 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:50:01,288 INFO autoreload 32246 140421764249408 Watching for file changes with StatReloader
+2021-06-28 22:50:38,588 INFO autoreload 32246 140421764249408 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:50:40,676 INFO autoreload 32260 140716604397376 Watching for file changes with StatReloader
+2021-06-28 22:51:29,181 INFO autoreload 32260 140716604397376 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:51:31,289 INFO autoreload 32273 140547706394432 Watching for file changes with StatReloader
+2021-06-28 22:52:07,460 INFO autoreload 32273 140547706394432 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:52:09,787 INFO autoreload 32290 140602266158912 Watching for file changes with StatReloader
+2021-06-28 22:52:15,989 INFO autoreload 32290 140602266158912 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:52:18,199 INFO autoreload 32299 140270180206400 Watching for file changes with StatReloader
+2021-06-28 22:52:43,189 INFO autoreload 32299 140270180206400 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:52:45,434 INFO autoreload 32305 140375651460928 Watching for file changes with StatReloader
+2021-06-28 22:52:49,865 INFO autoreload 32305 140375651460928 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:52:51,988 INFO autoreload 32308 140000185165632 Watching for file changes with StatReloader
+2021-06-28 22:52:56,493 INFO autoreload 32308 140000185165632 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/patient changed, reloading.
+2021-06-28 22:52:58,614 INFO autoreload 32314 139687026804544 Watching for file changes with StatReloader
+2021-06-28 22:58:22,291 INFO autoreload 32314 139687026804544 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/__init__.py changed, reloading.
+2021-06-28 22:58:24,584 INFO autoreload 32553 140236274124608 Watching for file changes with StatReloader
+2021-06-28 22:58:41,606 INFO autoreload 32553 140236274124608 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/__init__.py changed, reloading.
+2021-06-28 22:58:43,945 INFO autoreload 32562 140570621146944 Watching for file changes with StatReloader
+2021-06-28 23:10:17,829 INFO autoreload 32562 140570621146944 /run/media/dipto/DK/Projects/University/Patient-Management-System/heartcare/urls.py changed, reloading.
+2021-06-28 23:10:20,279 INFO autoreload 32945 139880376026944 Watching for file changes with StatReloader
+2021-06-28 23:10:26,333 INFO autoreload 32945 139880376026944 /run/media/dipto/DK/Projects/University/Patient-Management-System/heartcare/urls.py changed, reloading.
+2021-06-28 23:10:28,407 INFO autoreload 32956 140097875318592 Watching for file changes with StatReloader
+2021-06-28 23:11:12,457 INFO autoreload 32956 140097875318592 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/urls.py changed, reloading.
+2021-06-28 23:11:14,704 INFO autoreload 32991 140198087771968 Watching for file changes with StatReloader
+2021-06-28 23:11:24,958 INFO autoreload 32991 140198087771968 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/urls.py changed, reloading.
+2021-06-28 23:11:27,122 INFO autoreload 33023 140223888590656 Watching for file changes with StatReloader
+2021-06-28 23:11:31,680 INFO autoreload 33023 140223888590656 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/urls.py changed, reloading.
+2021-06-28 23:11:33,731 INFO autoreload 33027 140287052347200 Watching for file changes with StatReloader
+2021-06-28 23:12:17,484 INFO autoreload 33027 140287052347200 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/urls.py changed, reloading.
+2021-06-28 23:12:19,545 INFO autoreload 33047 139822670714688 Watching for file changes with StatReloader
+2021-06-28 23:19:15,204 INFO autoreload 33047 139822670714688 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 23:19:17,699 INFO autoreload 33244 140446654031680 Watching for file changes with StatReloader
+2021-06-28 23:19:23,572 INFO autoreload 33244 140446654031680 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 23:19:25,853 INFO autoreload 33256 140013731657536 Watching for file changes with StatReloader
+2021-06-28 23:19:37,106 INFO autoreload 33256 140013731657536 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 23:19:39,242 INFO autoreload 33263 139974692304704 Watching for file changes with StatReloader
+2021-06-28 23:19:43,330 INFO autoreload 33263 139974692304704 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/patient.py changed, reloading.
+2021-06-28 23:19:45,567 INFO autoreload 33269 140417460369216 Watching for file changes with StatReloader
+2021-06-28 23:40:42,353 INFO autoreload 33269 140417460369216 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:40:45,044 INFO autoreload 34190 140084547131200 Watching for file changes with StatReloader
+2021-06-28 23:41:25,610 INFO autoreload 34190 140084547131200 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:41:28,085 INFO autoreload 34208 139964531242816 Watching for file changes with StatReloader
+2021-06-28 23:42:15,931 INFO autoreload 34208 139964531242816 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:42:18,155 INFO autoreload 34230 139797526402880 Watching for file changes with StatReloader
+2021-06-28 23:42:25,934 INFO autoreload 34230 139797526402880 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:42:28,384 INFO autoreload 34238 140267177645888 Watching for file changes with StatReloader
+2021-06-28 23:42:37,981 INFO autoreload 34238 140267177645888 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:42:40,244 INFO autoreload 34243 140173240399680 Watching for file changes with StatReloader
+2021-06-28 23:42:48,156 INFO autoreload 34243 140173240399680 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:42:50,601 INFO autoreload 34247 140128073996096 Watching for file changes with StatReloader
+2021-06-28 23:42:57,256 INFO autoreload 34247 140128073996096 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:42:59,499 INFO autoreload 34254 140119823161152 Watching for file changes with StatReloader
+2021-06-28 23:43:14,361 INFO autoreload 34254 140119823161152 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:43:16,589 INFO autoreload 34263 140105908295488 Watching for file changes with StatReloader
+2021-06-28 23:43:52,764 INFO autoreload 34263 140105908295488 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:43:55,279 INFO autoreload 34276 139645369255744 Watching for file changes with StatReloader
+2021-06-28 23:43:59,198 ERROR log 34276 139645219599936 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'group_checker_tag'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'group_checker_tag' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+debugger_tags
+highlighting
+i18n
+import_export_tags
+indent_text
+jazzmin
+l10n
+log
+message_type_checker
+static
+syntax_color
+tz
+widget_tweaks
+widont
+2021-06-28 23:44:12,797 INFO autoreload 34314 140431553693504 Watching for file changes with StatReloader
+2021-06-28 23:44:17,124 ERROR log 34314 140431404037696 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'group_checker_tag'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'group_checker_tag' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+debugger_tags
+highlighting
+i18n
+import_export_tags
+indent_text
+jazzmin
+l10n
+log
+message_type_checker
+static
+syntax_color
+tz
+widget_tweaks
+widont
+2021-06-28 23:46:03,366 ERROR log 34314 140431404037696 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1034, in find_library
+    return parser.libraries[name]
+KeyError: 'group_checker_tag'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1091, in load
+    lib = find_library(parser, name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 1036, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'group_checker_tag' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+debugger_tags
+highlighting
+i18n
+import_export_tags
+indent_text
+jazzmin
+l10n
+log
+message_type_checker
+static
+syntax_color
+tz
+widget_tweaks
+widont
+2021-06-28 23:46:21,453 INFO autoreload 34613 140464672958272 Watching for file changes with StatReloader
+2021-06-28 23:46:32,831 ERROR log 34613 140464589661760 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'is_doctor|user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'user'
+2021-06-28 23:47:13,878 INFO autoreload 34613 140464672958272 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:47:16,077 INFO autoreload 34657 139921600223040 Watching for file changes with StatReloader
+2021-06-28 23:47:21,945 INFO autoreload 34657 139921600223040 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:47:24,475 INFO autoreload 34663 140090944972608 Watching for file changes with StatReloader
+2021-06-28 23:47:27,538 ERROR log 34663 140090862462528 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'is_doctor|'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '|' from 'is_doctor|'
+2021-06-28 23:51:17,420 INFO autoreload 34663 140090944972608 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:51:19,784 INFO autoreload 34891 140089996445504 Watching for file changes with StatReloader
+2021-06-28 23:51:39,543 INFO autoreload 34891 140089996445504 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:51:41,965 INFO autoreload 34899 140534721230656 Watching for file changes with StatReloader
+2021-06-28 23:51:52,045 ERROR log 34899 140534637934144 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 633, in __init__
+    raise TemplateSyntaxError("Could not parse some characters: "
+django.template.exceptions.TemplateSyntaxError: Could not parse some characters: if| is_doctor||user
+2021-06-28 23:57:16,411 INFO autoreload 34899 140534721230656 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:57:19,174 INFO autoreload 35190 139714621458240 Watching for file changes with StatReloader
+2021-06-28 23:57:24,088 INFO autoreload 35190 139714621458240 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:57:26,540 INFO autoreload 35198 140224776140608 Watching for file changes with StatReloader
+2021-06-28 23:57:31,545 INFO autoreload 35198 140224776140608 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:57:33,951 INFO autoreload 35202 139738036238144 Watching for file changes with StatReloader
+2021-06-28 23:57:39,441 INFO autoreload 35202 139738036238144 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:57:41,884 INFO autoreload 35209 139977500813120 Watching for file changes with StatReloader
+2021-06-28 23:57:46,841 INFO autoreload 35209 139977500813120 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:57:49,025 INFO autoreload 35214 139961553966912 Watching for file changes with StatReloader
+2021-06-28 23:58:04,729 ERROR log 35214 139961470670400 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'request|is_doctor:user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 658, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 717, in args_check
+    raise TemplateSyntaxError("%s requires %d arguments, %d provided" %
+django.template.exceptions.TemplateSyntaxError: is_doctor requires 1 arguments, 2 provided
+2021-06-28 23:58:34,321 ERROR log 35214 139961470670400 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'request|is_doctor:user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 658, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 717, in args_check
+    raise TemplateSyntaxError("%s requires %d arguments, %d provided" %
+django.template.exceptions.TemplateSyntaxError: is_doctor requires 1 arguments, 2 provided
+2021-06-28 23:59:10,487 INFO autoreload 35214 139961553966912 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:59:13,185 INFO autoreload 35270 139823802652480 Watching for file changes with StatReloader
+2021-06-28 23:59:18,345 INFO autoreload 35270 139823802652480 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:59:20,495 INFO autoreload 35276 140105628940096 Watching for file changes with StatReloader
+2021-06-28 23:59:26,448 INFO autoreload 35276 140105628940096 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:59:28,993 INFO autoreload 35279 140112424417088 Watching for file changes with StatReloader
+2021-06-28 23:59:38,466 INFO autoreload 35279 140112424417088 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-28 23:59:40,854 INFO autoreload 35290 140571691685696 Watching for file changes with StatReloader
+2021-06-28 23:59:48,546 ERROR log 35290 140571608389184 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'request|is_doctor:request.user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 658, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 717, in args_check
+    raise TemplateSyntaxError("%s requires %d arguments, %d provided" %
+django.template.exceptions.TemplateSyntaxError: is_doctor requires 1 arguments, 2 provided

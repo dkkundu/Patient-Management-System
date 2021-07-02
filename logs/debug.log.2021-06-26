@@ -1,0 +1,181 @@
+2021-06-26 23:04:25,488 INFO autoreload 42113 139700127471424 Watching for file changes with StatReloader
+2021-06-26 23:10:54,936 ERROR log 42113 139700036044352 Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py", line 159, in post
+    send_mail(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    return mail.send()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/mail/message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "/usr/lib/python3.9/smtplib.py", line 745, in login
+    raise last_exception
+  File "/usr/lib/python3.9/smtplib.py", line 734, in login
+    (code, resp) = self.auth(
+  File "/usr/lib/python3.9/smtplib.py", line 657, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials c5sm8851556pfv.47 - gsmtp')
+2021-06-26 23:13:44,377 INFO autoreload 42113 139700127471424 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:13:46,903 INFO autoreload 42706 140411336226624 Watching for file changes with StatReloader
+2021-06-26 23:13:56,332 INFO autoreload 42706 140411336226624 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:13:58,695 INFO autoreload 42718 139944545814336 Watching for file changes with StatReloader
+2021-06-26 23:14:03,828 INFO autoreload 42718 139944545814336 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:14:06,386 INFO autoreload 42726 139966291494720 Watching for file changes with StatReloader
+2021-06-26 23:15:12,256 INFO autoreload 42726 139966291494720 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:15:14,675 INFO autoreload 42768 139975004301120 Watching for file changes with StatReloader
+2021-06-26 23:15:35,668 INFO autoreload 42768 139975004301120 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:15:37,958 INFO autoreload 42785 139992040671040 Watching for file changes with StatReloader
+2021-06-26 23:15:42,934 INFO autoreload 42785 139992040671040 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:15:45,110 INFO autoreload 42790 139902284597056 Watching for file changes with StatReloader
+2021-06-26 23:16:11,708 INFO autoreload 42790 139902284597056 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:16:14,069 INFO autoreload 42799 140168613214016 Watching for file changes with StatReloader
+2021-06-26 23:16:27,375 INFO autoreload 42799 140168613214016 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:16:29,935 INFO autoreload 42835 139773420230464 Watching for file changes with StatReloader
+2021-06-26 23:20:40,402 INFO autoreload 42835 139773420230464 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:20:42,794 INFO autoreload 43188 139904350189376 Watching for file changes with StatReloader
+2021-06-26 23:20:49,289 INFO autoreload 43188 139904350189376 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:20:51,724 INFO autoreload 43197 140018966505280 Watching for file changes with StatReloader
+2021-06-26 23:21:28,695 INFO autoreload 43197 140018966505280 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:21:30,685 INFO autoreload 43213 140018112677696 Watching for file changes with StatReloader
+2021-06-26 23:22:36,718 INFO autoreload 43213 140018112677696 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:22:38,565 INFO autoreload 43301 140209653962560 Watching for file changes with StatReloader
+2021-06-26 23:26:05,354 INFO autoreload 43301 140209653962560 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital changed, reloading.
+2021-06-26 23:26:07,711 INFO autoreload 43450 140464745031488 Watching for file changes with StatReloader
+2021-06-26 23:43:03,109 INFO autoreload 43450 140464745031488 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-26 23:43:05,384 INFO autoreload 44171 140420304529216 Watching for file changes with StatReloader
+2021-06-26 23:43:10,481 INFO autoreload 44171 140420304529216 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-26 23:43:12,770 INFO autoreload 44179 140655476655936 Watching for file changes with StatReloader
+2021-06-26 23:43:17,466 ERROR log 44179 140655394145856 Internal Server Error: /
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 195, in render
+    return template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'logout' not found. 'logout' is not a valid view function or pattern name.
+2021-06-26 23:43:18,801 WARNING log 44179 140655394145856 Not Found: /favicon.ico
+2021-06-26 23:47:21,852 INFO autoreload 44179 140655476655936 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-26 23:47:24,870 INFO autoreload 44561 140013729937216 Watching for file changes with StatReloader
+2021-06-26 23:47:31,549 INFO autoreload 44561 140013729937216 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-26 23:47:34,120 INFO autoreload 44571 140690118350656 Watching for file changes with StatReloader
+2021-06-26 23:47:40,398 INFO autoreload 44571 140690118350656 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-26 23:47:42,718 INFO autoreload 44578 139740620666688 Watching for file changes with StatReloader
+2021-06-26 23:48:07,121 INFO autoreload 44578 139740620666688 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/urls.py changed, reloading.
+2021-06-26 23:48:09,399 INFO autoreload 44600 139946068481856 Watching for file changes with StatReloader
+2021-06-26 23:48:12,682 INFO autoreload 44600 139946068481856 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/urls.py changed, reloading.
+2021-06-26 23:48:14,948 INFO autoreload 44604 140717596333888 Watching for file changes with StatReloader
+2021-06-26 23:48:35,851 INFO autoreload 44604 140717596333888 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/urls.py changed, reloading.
+2021-06-26 23:48:38,593 INFO autoreload 44681 140457579947840 Watching for file changes with StatReloader
+2021-06-26 23:49:10,577 INFO autoreload 44681 140457579947840 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-06-26 23:49:13,300 INFO autoreload 44715 140350608238400 Watching for file changes with StatReloader
+2021-06-26 23:50:07,186 INFO autoreload 44715 140350608238400 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py changed, reloading.
+2021-06-26 23:50:09,705 INFO autoreload 44759 140086250575680 Watching for file changes with StatReloader
+2021-06-26 23:53:22,035 ERROR log 44759 140086169114176 Internal Server Error: /contact/
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/views.py", line 136, in post
+    send_mail(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/mail/__init__.py", line 61, in send_mail
+    return mail.send()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/mail/message.py", line 284, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/mail/backends/smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "/usr/lib/python3.9/smtplib.py", line 745, in login
+    raise last_exception
+  File "/usr/lib/python3.9/smtplib.py", line 734, in login
+    (code, resp) = self.auth(
+  File "/usr/lib/python3.9/smtplib.py", line 657, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials i20sm9096248pfo.130 - gsmtp')
+2021-06-26 23:53:22,794 WARNING log 44759 140086169114176 Not Found: /favicon.ico
+2021-06-26 23:56:10,745 INFO autoreload 44759 140086250575680 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:56:13,188 INFO autoreload 45054 139770994042688 Watching for file changes with StatReloader
+2021-06-26 23:56:18,982 INFO autoreload 45054 139770994042688 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:56:21,961 INFO autoreload 45057 140535834130240 Watching for file changes with StatReloader
+2021-06-26 23:57:27,987 INFO autoreload 45057 140535834130240 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:57:30,676 INFO autoreload 45086 140633950738240 Watching for file changes with StatReloader
+2021-06-26 23:57:37,077 INFO autoreload 45086 140633950738240 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:57:39,331 INFO autoreload 45096 139785379530560 Watching for file changes with StatReloader
+2021-06-26 23:58:18,813 INFO autoreload 45096 139785379530560 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:58:20,605 INFO autoreload 45117 139827144218432 Watching for file changes with StatReloader
+2021-06-26 23:58:34,013 INFO autoreload 45117 139827144218432 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:58:35,422 INFO autoreload 45130 140555207530304 Watching for file changes with StatReloader
+2021-06-26 23:58:51,206 INFO autoreload 45130 140555207530304 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:58:52,403 INFO autoreload 45151 140606026495808 Watching for file changes with StatReloader
+2021-06-26 23:59:06,875 INFO autoreload 45151 140606026495808 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:59:08,451 INFO autoreload 45162 140225522620224 Watching for file changes with StatReloader
+2021-06-26 23:59:13,819 INFO autoreload 45162 140225522620224 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:59:15,457 INFO autoreload 45166 140226675398464 Watching for file changes with StatReloader
+2021-06-26 23:59:19,823 INFO autoreload 45166 140226675398464 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:59:21,020 INFO autoreload 45171 140157423253312 Watching for file changes with StatReloader
+2021-06-26 23:59:35,343 INFO autoreload 45171 140157423253312 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:59:36,877 INFO autoreload 45182 139654378243904 Watching for file changes with StatReloader
+2021-06-26 23:59:42,281 INFO autoreload 45182 139654378243904 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:59:43,555 INFO autoreload 45188 139899513472832 Watching for file changes with StatReloader
+2021-06-26 23:59:45,708 INFO autoreload 45188 139899513472832 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.
+2021-06-26 23:59:47,331 INFO autoreload 45191 140149285394240 Watching for file changes with StatReloader
+2021-06-26 23:59:59,503 INFO autoreload 45191 140149285394240 /run/media/dipto/DK/Projects/University/Patient-Management-System/hospital/models.py changed, reloading.

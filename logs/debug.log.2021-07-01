@@ -1,0 +1,232 @@
+2021-07-01 00:42:45,888 INFO autoreload 32540 140645903349568 Watching for file changes with StatReloader
+2021-07-01 00:42:57,029 INFO autoreload 32546 139644576503616 Watching for file changes with StatReloader
+2021-07-01 00:47:06,125 INFO autoreload 32546 139644576503616 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 00:47:08,478 INFO autoreload 32885 140468785502016 Watching for file changes with StatReloader
+2021-07-01 00:48:01,373 INFO autoreload 32885 140468785502016 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 00:48:03,849 INFO autoreload 32934 140186068027200 Watching for file changes with StatReloader
+2021-07-01 00:49:09,008 INFO autoreload 32934 140186068027200 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 00:49:11,566 INFO autoreload 32997 140011893098304 Watching for file changes with StatReloader
+2021-07-01 00:49:32,383 INFO autoreload 32997 140011893098304 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 00:49:34,726 INFO autoreload 33048 139978431522624 Watching for file changes with StatReloader
+2021-07-01 00:49:41,632 INFO autoreload 33048 139978431522624 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 00:49:44,317 INFO autoreload 33057 139784373057344 Watching for file changes with StatReloader
+2021-07-01 00:50:06,138 INFO autoreload 33057 139784373057344 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 00:50:08,783 INFO autoreload 33065 140321523742528 Watching for file changes with StatReloader
+2021-07-01 00:51:51,577 WARNING log 33065 140321440446016 Not Found: /manage/
+2021-07-01 00:51:52,354 WARNING log 33065 140321440446016 Not Found: /favicon.ico
+2021-07-01 00:52:58,229 ERROR log 33065 140321203676736 Internal Server Error: /patient/calender/appointment/
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 128, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py", line 50, in get
+    "event_data": json.dumps(event_arr),
+  File "/usr/lib/python3.9/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type User is not JSON serializable
+2021-07-01 00:58:12,099 INFO autoreload 33065 140321523742528 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/models/doctor_appointment.py changed, reloading.
+2021-07-01 00:58:14,517 INFO autoreload 33389 140312872200000 Watching for file changes with StatReloader
+2021-07-01 00:58:24,673 INFO autoreload 33389 140312872200000 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py changed, reloading.
+2021-07-01 00:58:27,588 INFO autoreload 33397 140154846717760 Watching for file changes with StatReloader
+2021-07-01 00:58:46,937 INFO autoreload 33488 140518430099264 Watching for file changes with StatReloader
+2021-07-01 00:59:17,519 INFO autoreload 33488 140518430099264 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/models/doctor_appointment.py changed, reloading.
+2021-07-01 00:59:19,836 INFO autoreload 33517 139823621572416 Watching for file changes with StatReloader
+2021-07-01 00:59:24,918 ERROR log 33517 139823465625152 Internal Server Error: /patient/calender/appointment/
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: patient_ms_doctorappointment.problem
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 71, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/contrib/auth/mixins.py", line 128, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/views/generic/base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py", line 38, in get
+    if query:
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 284, in __bool__
+    self._fetch_all()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+    cursor.execute(sql, params)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 423, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: patient_ms_doctorappointment.problem
+2021-07-01 01:01:24,491 INFO autoreload 33517 139823621572416 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py changed, reloading.
+2021-07-01 01:01:27,463 INFO autoreload 33720 140184568678208 Watching for file changes with StatReloader
+2021-07-01 01:03:21,334 INFO autoreload 33720 140184568678208 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py changed, reloading.
+2021-07-01 01:03:23,661 INFO autoreload 33780 140464322426688 Watching for file changes with StatReloader
+2021-07-01 01:04:30,673 INFO autoreload 33780 140464322426688 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:04:33,179 INFO autoreload 33839 140372092516160 Watching for file changes with StatReloader
+2021-07-01 01:04:45,189 INFO autoreload 33839 140372092516160 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:04:47,726 INFO autoreload 33848 140195419158336 Watching for file changes with StatReloader
+2021-07-01 01:04:57,948 INFO autoreload 33848 140195419158336 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:05:00,537 INFO autoreload 33852 139697466083136 Watching for file changes with StatReloader
+2021-07-01 01:05:05,255 INFO autoreload 33852 139697466083136 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:05:07,629 INFO autoreload 33857 140565022246720 Watching for file changes with StatReloader
+2021-07-01 01:09:12,792 WARNING log 33857 140564940523072 Not Found: /ppointment/
+2021-07-01 01:09:19,723 WARNING log 33857 140564940523072 Not Found: /pointment/
+2021-07-01 01:09:25,556 WARNING log 33857 140564940523072 Not Found: /1pointment/
+2021-07-01 01:12:00,970 INFO autoreload 33857 140565022246720 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py changed, reloading.
+2021-07-01 01:12:03,227 INFO autoreload 34255 140004624918336 Watching for file changes with StatReloader
+2021-07-01 01:12:14,770 INFO autoreload 34255 140004624918336 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py changed, reloading.
+2021-07-01 01:12:17,261 INFO autoreload 34266 140582763747136 Watching for file changes with StatReloader
+2021-07-01 01:13:29,668 INFO autoreload 34266 140582763747136 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py changed, reloading.
+2021-07-01 01:13:32,462 INFO autoreload 34297 139996723775296 Watching for file changes with StatReloader
+2021-07-01 01:13:46,458 INFO autoreload 34297 139996723775296 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py changed, reloading.
+2021-07-01 01:13:48,861 INFO autoreload 34314 140014836242240 Watching for file changes with StatReloader
+2021-07-01 01:14:13,497 INFO autoreload 34314 140014836242240 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/doctor_appoiment.py changed, reloading.
+2021-07-01 01:14:15,562 INFO autoreload 34332 140467409643328 Watching for file changes with StatReloader
+2021-07-01 01:17:34,940 INFO autoreload 34332 140467409643328 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/views/__init__.py changed, reloading.
+2021-07-01 01:17:37,304 INFO autoreload 34405 140490920122176 Watching for file changes with StatReloader
+2021-07-01 01:17:41,891 INFO autoreload 34405 140490920122176 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/urls.py changed, reloading.
+2021-07-01 01:17:43,936 INFO autoreload 34415 140122866022208 Watching for file changes with StatReloader
+2021-07-01 01:18:47,898 INFO autoreload 34510 140518836983616 Watching for file changes with StatReloader
+2021-07-01 01:19:30,375 INFO autoreload 34510 140518836983616 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:19:32,481 INFO autoreload 34549 139838479398720 Watching for file changes with StatReloader
+2021-07-01 01:21:56,275 INFO autoreload 34549 139838479398720 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:21:58,544 INFO autoreload 34616 139964345173824 Watching for file changes with StatReloader
+2021-07-01 01:22:10,117 INFO autoreload 34616 139964345173824 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:22:12,448 INFO autoreload 34620 140497117980480 Watching for file changes with StatReloader
+2021-07-01 01:22:34,234 INFO autoreload 34620 140497117980480 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:22:36,285 INFO autoreload 34632 139973709600576 Watching for file changes with StatReloader
+2021-07-01 01:23:05,238 INFO autoreload 34632 139973709600576 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment/index.html changed, reloading.
+2021-07-01 01:23:07,621 INFO autoreload 34641 140452632889152 Watching for file changes with StatReloader
+2021-07-01 01:24:26,907 INFO autoreload 34641 140452632889152 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/appointment changed, reloading.
+2021-07-01 01:24:29,424 INFO autoreload 34707 139960726714176 Watching for file changes with StatReloader
+2021-07-01 01:25:29,285 INFO autoreload 34707 139960726714176 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/doctor_appointment.py changed, reloading.
+2021-07-01 01:25:31,414 INFO autoreload 34755 139635688507200 Watching for file changes with StatReloader
+2021-07-01 01:25:38,788 INFO autoreload 34755 139635688507200 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/doctor_appointment.py changed, reloading.
+2021-07-01 01:25:40,891 INFO autoreload 34761 140527587206976 Watching for file changes with StatReloader
+2021-07-01 01:25:48,381 INFO autoreload 34761 140527587206976 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/doctor_appointment.py changed, reloading.
+2021-07-01 01:25:50,481 INFO autoreload 34772 139783975601984 Watching for file changes with StatReloader
+2021-07-01 01:26:21,303 INFO autoreload 34772 139783975601984 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/doctor_appointment.py changed, reloading.
+2021-07-01 01:26:23,337 INFO autoreload 34800 140706310489920 Watching for file changes with StatReloader
+2021-07-01 01:28:52,045 INFO autoreload 34800 140706310489920 /run/media/dipto/DK/Projects/University/Patient-Management-System/patient_ms/forms/doctor_appointment.py changed, reloading.
+2021-07-01 01:28:54,021 INFO autoreload 34858 140441604323136 Watching for file changes with StatReloader
+2021-07-01 01:46:18,975 INFO autoreload 34858 140441604323136 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 01:46:21,356 INFO autoreload 35611 140634278254400 Watching for file changes with StatReloader
+2021-07-01 01:46:29,396 INFO autoreload 35611 140634278254400 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 01:46:32,160 INFO autoreload 35620 139917761247040 Watching for file changes with StatReloader
+2021-07-01 21:47:28,621 INFO autoreload 36708 140357952370496 Watching for file changes with StatReloader
+2021-07-01 23:17:48,240 INFO autoreload 36708 140357952370496 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:17:50,499 INFO autoreload 40872 139988960290624 Watching for file changes with StatReloader
+2021-07-01 23:17:59,213 INFO autoreload 40872 139988960290624 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:18:01,294 INFO autoreload 40879 140669364315968 Watching for file changes with StatReloader
+2021-07-01 23:19:28,112 INFO autoreload 40879 140669364315968 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:19:30,073 INFO autoreload 40945 140680266282816 Watching for file changes with StatReloader
+2021-07-01 23:19:38,741 INFO autoreload 40945 140680266282816 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:19:40,897 INFO autoreload 40953 140625342080832 Watching for file changes with StatReloader
+2021-07-01 23:19:45,347 INFO autoreload 40953 140625342080832 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:19:47,401 INFO autoreload 40958 140561627109184 Watching for file changes with StatReloader
+2021-07-01 23:19:56,177 INFO autoreload 40958 140561627109184 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:19:58,235 INFO autoreload 40964 139676801947456 Watching for file changes with StatReloader
+2021-07-01 23:20:04,095 INFO autoreload 40964 139676801947456 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:20:06,067 INFO autoreload 40971 139800684959552 Watching for file changes with StatReloader
+2021-07-01 23:20:10,739 INFO autoreload 40971 139800684959552 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:20:12,827 INFO autoreload 40975 140205011130176 Watching for file changes with StatReloader
+2021-07-01 23:20:21,400 INFO autoreload 40975 140205011130176 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:20:23,550 INFO autoreload 40980 139876370253632 Watching for file changes with StatReloader
+2021-07-01 23:21:37,537 INFO autoreload 40980 139876370253632 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:21:39,524 INFO autoreload 41113 140093752772416 Watching for file changes with StatReloader
+2021-07-01 23:22:08,477 INFO autoreload 41113 140093752772416 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:22:10,470 INFO autoreload 41129 140031709861696 Watching for file changes with StatReloader
+2021-07-01 23:22:34,188 ERROR log 41129 140031626565184 Internal Server Error: /patient/calender/appointment/
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: "'time/static"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/test/utils.py", line 100, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loader_tags.py", line 183, in render
+    template = context.template.engine.select_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 174, in select_template
+    return self.get_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/run/media/dipto/DK/Projects/University/Patient-Management-System/dj/lib/python3.9/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 27: ''time/static'. Did you forget to register or load this tag?
+2021-07-01 23:22:35,791 WARNING log 41129 140031626565184 Not Found: /favicon.ico
+2021-07-01 23:22:59,119 INFO autoreload 41129 140031709861696 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials changed, reloading.
+2021-07-01 23:23:01,232 INFO autoreload 41184 139974525835072 Watching for file changes with StatReloader
