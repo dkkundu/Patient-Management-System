@@ -4,7 +4,8 @@ import logging
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.conf import settings
-from hospital.models import Doctor
+from address.models import District, Division, Upazila
+from hospital.models import Doctor, Speciality
 
 # CORE IMPORTS
 
@@ -14,6 +15,25 @@ logger = logging.getLogger(__name__)
 class DoctorAppointment(models.Model):
     patient = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
+        blank=True, null=True,
+    )
+    speciality = models.ForeignKey(
+        Speciality, on_delete=models.PROTECT,
+        blank=True, null=True, related_name="appointment_speciality"
+    )
+    division = models.ForeignKey(
+        Division, models.SET_NULL,
+        related_name='appointment_division',
+        blank=True, null=True,
+    )
+    district = models.ForeignKey(
+        District, models.SET_NULL,
+        related_name='appointment_district',
+        blank=True, null=True,
+    )
+    upazila = models.ForeignKey(
+        Upazila, models.SET_NULL,
+        related_name='appointment_upazila',
         blank=True, null=True,
     )
     doctor = models.ForeignKey(

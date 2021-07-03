@@ -11,9 +11,21 @@ class DoctorAppointmentForm(forms.ModelForm):
             "is_visited",
             'appointment_close_time'
         ]
+        widgets = {
+            'division': forms.Select(attrs={
+                'id': 'division'
+            }),
+            'district': forms.Select(attrs={
+                'id': 'district'
+            }),
+            'upazila': forms.Select(attrs={
+                'id': 'upazila'
+            }),
+        }
 
     def __init__(self, *args, **kwargs):
         super(DoctorAppointmentForm, self).__init__(*args, **kwargs)
         self.fields['doctor'].required = True
         self.fields['appointment_time'].required = True
+        self.fields['speciality'].required = True
 

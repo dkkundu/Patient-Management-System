@@ -17,6 +17,16 @@ class Slider(models.Model):
         verbose_name_plural = 'Slider'
 
 
+class Speciality(models.Model):
+    name = models.CharField(max_length=150)
+
+    def __str__(self):
+        return str(self.name)
+
+    class Meta:
+        verbose_name_plural = 'Doctor Speciality'
+
+
 class Service(models.Model):
     title = models.CharField(max_length=120)
     description = models.TextField()
@@ -43,7 +53,11 @@ class Doctor(models.Model):
         blank=True, null=True, related_name="doctor"
     )
     name = models.CharField(max_length=120, null=True, blank=True)
-    speciality = models.CharField(max_length=120, null=True, blank=True)
+
+    speciality = models.ForeignKey(
+        Speciality, on_delete=models.PROTECT,
+        blank=True, null=True, related_name="speciality"
+    )
     picture = models.ImageField(
         upload_to="doctors/", null=True, blank=True
     )
