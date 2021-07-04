@@ -5,7 +5,11 @@ from address.views import (
     load_district,
     load_upazila
 )
-
+from .dashboard import (
+    VisitedAppointmentList,
+    UnVisitedAppointmentList,
+    AllPatientList
+)
 
 urlpatterns = [
     path('', views.HomeView.as_view(), name='index'),
@@ -35,4 +39,9 @@ urlpatterns = [
 
     path('load-district/', load_district, name='load_district'),
     path('load-upazila/', load_upazila, name='load_upazila'),
+
+
+    path('checked/appointment/list/', VisitedAppointmentList.as_view(), name='checked_appointment_list'),
+    path('uncheck/appointment/list/', UnVisitedAppointmentList.as_view(), name='uncheck_appointment_list'),
+    path('patient/list/', AllPatientList.as_view(), name='patient_list'),
 ]

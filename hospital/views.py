@@ -1,5 +1,6 @@
+import datetime
 from django.shortcuts import render, redirect
-from django.core.mail import send_mail
+from patient_ms.models import DoctorAppointment
 from django.contrib import messages
 from .models import Slider, Service, Doctor, Faq, Gallery
 from django.views.generic import ListView, DetailView, TemplateView, View
@@ -17,9 +18,26 @@ class DoctorDashboard(TemplateView):
 
     def get_context_data(self, **kwargs):
         kwargs = super(DoctorDashboard, self).get_context_data(**kwargs)
+        today = datetime.date.today()
+
+        try:
+            total_appointment = DoctorAppointment.objects.filter(
+                doctor__user=self.request.user
+            ).count()
+            todays_appointment = DoctorAppointment.objects.filter(
+                doctor__user=self.request.user,
+                appointment_day=today
+            ).count()
+        except Exception as e:
+            logging.warning(self.request, f'Unable to get data {e}')
+            todays_appointment = 0
+            total_appointment = 0
+
         kwargs["doctor"] = Doctor.objects.get(user=self.request.user)
         kwargs["doctor_count"] = Doctor.objects.all().count()
         kwargs["patient_count"] = Patient.objects.all().count()
+        kwargs["total_appointment"] = total_appointment
+        kwargs["todays_appointment"] = todays_appointment
         return kwargs
 
 
