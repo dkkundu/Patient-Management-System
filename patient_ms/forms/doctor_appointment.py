@@ -1,8 +1,5 @@
 from django import forms
 from patient_ms.models import DoctorAppointment
-from bootstrap_datepicker_plus import DateTimePickerInput
-from django.forms.widgets import SelectDateWidget
-
 
 
 class DoctorAppointmentForm(forms.ModelForm):
@@ -28,7 +25,7 @@ class DoctorAppointmentForm(forms.ModelForm):
                 attrs={
                     'type': 'date'
                 }),
-            'appointment_time': forms.DateInput(
+            'appointment_time': forms.TimeInput(
                 attrs={
                     'type': 'time'
                 })

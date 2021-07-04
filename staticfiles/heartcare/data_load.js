@@ -15,7 +15,6 @@ function load_doctor(){
         },
         success: function (data) {
         $("#id_doctor").html(data);
-        console.log(data)
         }
     });
 };

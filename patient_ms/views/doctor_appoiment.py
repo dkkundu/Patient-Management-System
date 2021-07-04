@@ -49,7 +49,7 @@ class DoctorAppointment(
         save_form.patient = self.request.user
         save_form.serial_number = serial
         save_form.save()
-        print("serial---------", form.errors)
+        print("serial---------", self.request.POST)
         return super(DoctorAppointment, self).form_valid(form)
 
     def get_success_url(self):
