@@ -66,8 +66,8 @@
                                 <li class="dropdown">
                                     <li href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                        aria-haspopup="true" aria-expanded="false">
-                                        {% if object.picture %}
-                                        <img src="{{ object.picture.url }}"
+                                        {% if login_user.picture %}
+                                        <img src="{{ login_user.picture.url }}"
                                              width="40" height="40" class="rounded-circle">
                                         {% else %}
                                         <img src="{% static 'image/doctor.jpg' %}"
