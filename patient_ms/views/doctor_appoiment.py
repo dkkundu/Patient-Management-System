@@ -27,14 +27,14 @@ class DoctorAppointment(
         return self.request.user.is_active  # any active user
 
     def form_valid(self, form):
-        appointment_time = form.cleaned_data.get("appointment_time").date().strftime("%Y-%m-%d")
+        appointment_day = form.cleaned_data.get("appointment_day").strftime("%Y-%m-%d")
         doctor = form.cleaned_data.get("doctor")
         serial = 1
-        print('------------', appointment_time)
+        print('------------', appointment_day)
         print('------------', doctor)
         try:
             save_object = self.model.objects.filter(
-                appointment_time__contains=appointment_time,
+                appointment_day__contains=appointment_day,
                 doctor=doctor
             ).last()
             print("All----", save_object)
@@ -49,7 +49,7 @@ class DoctorAppointment(
         save_form.patient = self.request.user
         save_form.serial_number = serial
         save_form.save()
-        print("serial---------", serial)
+        print("serial---------", form.errors)
         return super(DoctorAppointment, self).form_valid(form)
 
     def get_success_url(self):

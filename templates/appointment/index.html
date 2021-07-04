@@ -3,8 +3,8 @@
 {% load crispy_forms_tags %}
 
 {% block style %}
-<link href="{% static 'time/css/datetimepicker.css' %}">
-<script src="{% static 'time/js/datetimepicker.js' %}"></script>
+
+
 
 <style>
   .row.form-field {
@@ -76,11 +76,15 @@
                       {{ form.problem|as_crispy_field }}
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
+                  <div class="row form-field">
+                    <div class="col-6">
+                      {{ form.appointment_day|as_crispy_field }}
+                    </div>
+                    <div class="col-6">
                       {{ form.appointment_time|as_crispy_field }}
                     </div>
                 </div>
+
 
 
 
@@ -101,11 +105,11 @@
 
 {% block extra_js %}
 <script>
-$(function () {
-  $("#id_appointment_time").datetimepicker({
-    format:'DD/MM/YYYY HH:mm:ss',
-  })
+
+$('#id_appointment_day').calendar({
+  type: 'date'
 });
+
 </script>
 <script src="{% static 'heartcare/data_load.js' %}"></script>
 

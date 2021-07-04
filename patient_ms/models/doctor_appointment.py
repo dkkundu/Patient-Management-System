@@ -43,10 +43,13 @@ class DoctorAppointment(models.Model):
     problem = models.CharField(
         _("Problem"), max_length=500, null=True, blank=True
     )
-    appointment_time = models.DateTimeField(
+    appointment_day = models.DateField(
+        _('Appointment Day'), null=True, blank=True
+    )
+    appointment_time = models.TimeField(
         _('Appointment Time'), null=True, blank=True
     )
-    appointment_close_time = models.DateTimeField(
+    appointment_close_time = models.DateField(
         _('Appointment Close Time'), null=True, blank=True
     )
     serial_number = models.PositiveIntegerField(
