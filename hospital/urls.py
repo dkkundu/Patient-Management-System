@@ -8,7 +8,8 @@ from address.views import (
 from .dashboard import (
     VisitedAppointmentList,
     UnVisitedAppointmentList,
-    AllPatientList
+    AllPatientList,
+    ProfileUpdate
 )
 
 urlpatterns = [
@@ -35,13 +36,14 @@ urlpatterns = [
         'logout/',
         views.logout_request, name="logout"
     ),
-
-
     path('load-district/', load_district, name='load_district'),
     path('load-upazila/', load_upazila, name='load_upazila'),
-
-
     path('checked/appointment/list/', VisitedAppointmentList.as_view(), name='checked_appointment_list'),
     path('uncheck/appointment/list/', UnVisitedAppointmentList.as_view(), name='uncheck_appointment_list'),
     path('patient/list/', AllPatientList.as_view(), name='patient_list'),
+
+
+    path('doctor/<int:pk>/update/', ProfileUpdate.as_view(), name='doctor_update'),
+
+
 ]

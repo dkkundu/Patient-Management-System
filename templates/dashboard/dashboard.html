@@ -75,7 +75,7 @@
     <aside class="app-sidebar">
 
       {% if doctor %}
-                  <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{{ doctor.picture.url }}" style="width:55px; hight:70px" alt="User Image">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{{ doctor.picture.url }}" style="width:55px; hight:70px" alt="User Image">
       {% else %}
             <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="{% static 'image/doctor.jpg' %}" style="width:55px; hight:70px" alt="User Image">
       {% endif %}
@@ -93,8 +93,9 @@
         <li><a class="app-menu__item active" href="{% url 'doctor_dashboard' %}"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-laptop"></i><span class="app-menu__label">Today's appointment</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
+
+            <li><a class="treeview-item" href="{% url 'uncheck_appointment_list' %}" rel="noopener"><i class="icon fa fa-circle-o"></i>Uncheck</a></li>
             <li><a class="treeview-item" href="{% url 'checked_appointment_list' %}"><i class="icon fa fa-circle-o"></i>Checked</a></li>
-            <li><a class="treeview-item" href="{% url 'uncheck_appointment_list' %}" target="_blank" rel="noopener"><i class="icon fa fa-circle-o"></i>Uncheck</a></li>
           </ul>
         </li>
         <li><a class="app-menu__item" href="{% url 'patient_list' %}"><i class="app-menu__icon fa fa-pie-chart"></i><span class="app-menu__label">Find Patient</span></a></li>
@@ -103,7 +104,7 @@
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Profile</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
             <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Profile Details</a></li>
-            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Update profile</a></li>
+            <li><a class="treeview-item" href="{% url 'doctor_update'  pk=request.user.doctor.pk %}"><i class="icon fa fa-circle-o"></i> Update profile</a></li>
             <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Change Password</a></li>
 
           </ul>

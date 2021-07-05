@@ -20,3 +20,16 @@ class DoctorForm(forms.ModelForm):
         self.fields["picture"].required = True
         self.fields["speciality"].required = True
 
+
+class DoctorFormUpdate(forms.ModelForm):
+
+    class Meta:
+        model = Doctor
+        fields = '__all__'
+
+    def __init__(self, *args, **kwargs):
+        super(DoctorFormUpdate, self).__init__(*args, **kwargs)
+        self.fields["name"].required = True
+        self.fields["picture"].required = True
+        self.fields["speciality"].required = True
+

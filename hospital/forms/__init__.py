@@ -1,7 +1,10 @@
-from .doctor import DoctorForm
-from .login_form import  CustomLoginForm
+from .doctor import DoctorForm, DoctorFormUpdate
+from .login_form import (
+    CustomLoginForm,
+)
 
 __all__ = [
     DoctorForm,
-    CustomLoginForm
+    CustomLoginForm,
+    DoctorFormUpdate
 ]

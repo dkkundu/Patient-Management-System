@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 class Patient(models.Model):
     user = models.OneToOneField(
         settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
-        blank=True, null=True, related_name="patient"
+        blank=True, null=True, related_name="patient_data"
     )
     picture = models.ImageField(
         upload_to="Patient/", null=True, blank=True
