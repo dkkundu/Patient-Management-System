@@ -1,10 +1,11 @@
 import datetime
 from patient_ms.models import Patient
-from django.views.generic import ListView, UpdateView
+from django.views.generic import ListView, UpdateView, DetailView
 from patient_ms.models import DoctorAppointment
 from hospital.models import Doctor
 from hospital.forms import DoctorFormUpdate
 import logging
+
 logger = logging.getLogger(__name__)
 
 
@@ -46,3 +47,8 @@ class ProfileUpdate(UpdateView):
     model = Doctor
     form_class = DoctorFormUpdate
     template_name = 'dashboard/profile/profile.html'
+
+
+class DrProfileView(DetailView):
+    model = Doctor
+    template_name = 'dashboard/profile/profile_view.html'

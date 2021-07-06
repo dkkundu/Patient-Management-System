@@ -62,7 +62,7 @@ class Doctor(models.Model):
         upload_to="doctors/", null=True, blank=True
     )
     details = models.TextField(blank=True, null=True)
-    experience = models.TextField(blank=True, null=True)
+    present_hospital = models.CharField(max_length=120, blank=True, null=True)
     expertize = models.ManyToManyField(to='Expertize', blank=True)
     twitter = models.CharField(max_length=120, blank=True, null=True)
     facebook = models.CharField(max_length=120, blank=True, null=True)

@@ -9,7 +9,8 @@ from .dashboard import (
     VisitedAppointmentList,
     UnVisitedAppointmentList,
     AllPatientList,
-    ProfileUpdate
+    ProfileUpdate,
+    DrProfileView,
 )
 
 urlpatterns = [
@@ -44,6 +45,7 @@ urlpatterns = [
 
 
     path('doctor/<int:pk>/update/', ProfileUpdate.as_view(), name='doctor_update'),
+    path('doctor/<int:pk>/view/', DrProfileView.as_view(), name='doctor_view'),
 
 
 ]

@@ -63,9 +63,8 @@
         <!-- User Menu-->
         <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
           <ul class="dropdown-menu settings-menu dropdown-menu-right">
-            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
-            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i> Profile</a></li>
-            <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+            <li><a class="dropdown-item" href="{% url 'doctor_view'  pk=request.user.doctor.pk %}"><i class="fa fa-user fa-lg"></i> Profile</a></li>
+            <li><a class="dropdown-item" href="{% url 'logout' %}"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
           </ul>
         </li>
       </ul>
@@ -103,7 +102,7 @@
         
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-file-text"></i><span class="app-menu__label">Profile</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
-            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Profile Details</a></li>
+            <li><a class="treeview-item" href="{% url 'doctor_view'  pk=request.user.doctor.pk %}"><i class="icon fa fa-circle-o"></i> Profile Details</a></li>
             <li><a class="treeview-item" href="{% url 'doctor_update'  pk=request.user.doctor.pk %}"><i class="icon fa fa-circle-o"></i> Update profile</a></li>
             <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Change Password</a></li>
 
