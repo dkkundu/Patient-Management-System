@@ -179,8 +179,7 @@
       </div>
     {% endblock %}
     </main>
-     {% block extra_ja  %}
-     {% endblock %}
+
     <!-- Essential javascripts for application to work-->
     <script src="{% static 'doctor/js/jquery-3.3.1.min.js' %}"></script>
     <script src="{% static 'doctor/js/popper.min.js'  %}"></script>
@@ -248,5 +247,8 @@
       	ga('send', 'pageview');
       }
     </script>
+
+{% block extra_ja %}
+{% endblock %}
   </body>
 </html>

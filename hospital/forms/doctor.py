@@ -25,7 +25,26 @@ class DoctorFormUpdate(forms.ModelForm):
 
     class Meta:
         model = Doctor
-        fields = '__all__'
+        exclude = ['user']
+        widgets = {
+            'division': forms.Select(attrs={
+                'id': 'division'
+            }),
+            'district': forms.Select(attrs={
+                'id': 'district'
+            }),
+            'upazila': forms.Select(attrs={
+                'id': 'upazila'
+            }),
+            'appointment_day': forms.DateInput(
+                attrs={
+                    'type': 'date'
+                }),
+            'appointment_time': forms.TimeInput(
+                attrs={
+                    'type': 'time'
+                })
+        }
 
     def __init__(self, *args, **kwargs):
         super(DoctorFormUpdate, self).__init__(*args, **kwargs)

@@ -60,5 +60,5 @@ class DoctorAppointment(
     def get_error_url(self):
         messages.warning(self.request, "Unable to get Appointment")
         logger.debug("Unable to get Appointment")
-        return reverse_lazy("index")
+        return reverse_lazy("dashboard")
 
