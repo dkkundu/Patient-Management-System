@@ -9,7 +9,6 @@ from django.contrib.auth.mixins import (
 from django.contrib import messages
 from patient_ms.models import DoctorAppointment
 from patient_ms.forms import DoctorAppointmentForm
-
 logger = logging.getLogger(__name__)
 
 
@@ -37,9 +36,10 @@ class DoctorAppointment(
                 appointment_day__contains=appointment_day,
                 doctor=doctor
             ).last()
-            print("All----", save_object)
-            if save_object.serial_number > 0:
-                serial = serial + save_object.serial_number
+            print("Serial Object----", save_object)
+            if save_object:
+                if save_object.serial_number > 0:
+                    serial = serial + save_object.serial_number
             print("serial---------", serial)
         except Exception as e:
             logger.debug(self.request, f"Unable to get Doctor as {e}")

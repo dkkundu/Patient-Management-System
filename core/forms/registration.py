@@ -31,7 +31,6 @@ class CommonSignupForm(UserCreationForm):
         self.fields["phone"].required = True
 
 
-
 class UpdateForm(forms.ModelForm):
     class Meta:
         """Meta class"""

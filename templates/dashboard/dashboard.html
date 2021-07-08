@@ -6,8 +6,12 @@
     <link rel="stylesheet" type="text/css" href="{% static 'doctor/css/main.css' %}">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      {% block extra_css  %}
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    {% block extra_css  %}
       {% endblock extra_css %}
+
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
@@ -104,7 +108,7 @@
           <ul class="treeview-menu">
             <li><a class="treeview-item" href="{% url 'doctor_view'  pk=request.user.doctor.pk %}"><i class="icon fa fa-circle-o"></i> Profile Details</a></li>
             <li><a class="treeview-item" href="{% url 'doctor_update'  pk=request.user.doctor.pk %}"><i class="icon fa fa-circle-o"></i> Update profile</a></li>
-            <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Change Password</a></li>
+            <li><a class="treeview-item" href="{% url 'dr_change_password' %}"><i class="icon fa fa-circle-o"></i> Change Password</a></li>
 
           </ul>
         </li>
@@ -123,6 +127,7 @@
           <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
         </ul>
       </div>
+       {% include 'success_message.html' %}
 
     {% block body  %}
       <div class="row">
@@ -187,6 +192,7 @@
     <script src="{% static 'doctor/js/main.js'  %}"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="{% static 'doctor/js/plugins/pace.min.js'  %}"></script>
+
     <!-- Page specific javascripts-->
     <script type="text/javascript" src="{% static 'doctor/js/plugins/chart.js' %}"></script>
     <script type="text/javascript">

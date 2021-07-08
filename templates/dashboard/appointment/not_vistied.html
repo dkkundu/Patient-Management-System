@@ -2,6 +2,16 @@
 {% load static %}
 
 
+{% block extra_css  %}
+<style>
+    img.image-sise {
+    width: 60%;
+    margin: 0 25%
+}
+</style>
+{% endblock extra_css %}
+
+
 {% block body  %}
 <div class="col-md-12">
     <div class="tile">
@@ -18,6 +28,7 @@
             </tr>
             </thead>
             <tbody>
+            {% if object_list %}
             {% for object in object_list %}
             <tr>
                 <td>{{ forloop.counter }}</td>
@@ -28,18 +39,23 @@
                 <td>{{ object.appointment_time }}</td>
                 <td class="col-md-3 col-xs-1">
                     <a class="btn btn-outline-success" href="#">
-                        <i class="fa fa-clipboard"> Record </i>
+                        <i class="fa fa-clipboard">All Record </i>
                     </a>
-                    <a class="btn btn-outline-primary" href="#">
+                    <a class="btn btn-outline-primary" href="{% url 'patient_ms:add_record' pk=object.patient.patient_data.pk %}">
                         <i class="fa fa-plus-square-o" aria-hidden="true"> Add Record</i>
                     </a>
 
                 </td>
             </tr>
             {% endfor  %}
+            {% else %}
 
             </tbody>
         </table>
+        <div class="image_div">
+         <img class="image-sise" src="{% static 'image/list.gif' %}">
+        </div>
+        {% endif %}
     </div>
 </div>
 {% endblock %}

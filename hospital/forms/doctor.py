@@ -43,7 +43,11 @@ class DoctorFormUpdate(forms.ModelForm):
             'appointment_time': forms.TimeInput(
                 attrs={
                     'type': 'time'
-                })
+                }),
+            'details': forms.Textarea(
+                attrs={'rows': 3, 'cols': 5}
+            ),
+
         }
 
     def __init__(self, *args, **kwargs):
@@ -51,4 +55,4 @@ class DoctorFormUpdate(forms.ModelForm):
         self.fields["name"].required = True
         self.fields["picture"].required = True
         self.fields["speciality"].required = True
-
+        self.fields['address'].widget.attrs['rows'] = 3

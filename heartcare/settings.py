@@ -64,6 +64,8 @@ PLAGIN_APPS = [
     'import_export',
     'crispy_forms',
     'bootstrap_datepicker_plus',
+    'ckeditor',
+    'ckeditor_uploader',
 
 ]
 
@@ -178,3 +180,21 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'your email'
 EMAIL_HOST_PASSWORD = 'your password'
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'Custom',
+        'height': 250,
+        'width': 370,
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            [
+                'NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-',
+                'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'
+            ],
+            ['Link', 'Unlink'],
+            ['RemoveFormat', 'Source']
+        ]
+    }
+}

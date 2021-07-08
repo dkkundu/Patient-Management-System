@@ -12,7 +12,9 @@ from .dashboard import (
     ProfileUpdate,
     DrProfileView,
 )
-
+from core.views import (
+    dr_change_password
+)
 urlpatterns = [
     path('', views.HomeView.as_view(), name='index'),
     path('dashboard/', views.DoctorDashboard.as_view(), name='doctor_dashboard'),
@@ -46,6 +48,9 @@ urlpatterns = [
 
     path('doctor/<int:pk>/update/', ProfileUpdate.as_view(), name='doctor_update'),
     path('doctor/<int:pk>/view/', DrProfileView.as_view(), name='doctor_view'),
+    path(
+        'doctor/password/change/', dr_change_password, name='dr_change_password'
+    ),
 
 
 ]

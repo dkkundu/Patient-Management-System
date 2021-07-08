@@ -50,7 +50,6 @@ class ProfileUpdate(UpdateView):
     form_class = DoctorFormUpdate
     template_name = 'dashboard/profile/profile.html'
 
-
     def get_success_url(self):
         messages.success(self.request, "Successfully Updated")
         logger.debug("Successfully Updated")
