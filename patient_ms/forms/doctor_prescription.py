@@ -16,6 +16,7 @@ class DoctorPrescriptionForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super(DoctorPrescriptionForm, self).__init__(*args, **kwargs)
         self.fields['record'].required = True
+        self.fields['record'].label = False
 
 
 class RecordFileForm(forms.ModelForm):
@@ -28,7 +29,8 @@ class RecordFileForm(forms.ModelForm):
 
     def __init__(self, *args, **kwargs):
         super(RecordFileForm, self).__init__(*args, **kwargs)
-        self.fields['record'].required = True
+        self.fields['file_name'].required = True
+        self.fields['document'].required = True
 
 
 record_file_formset = formset_factory(

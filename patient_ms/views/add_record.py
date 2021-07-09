@@ -1,6 +1,6 @@
 import logging
 
-from django.shortcuts import render
+from django.shortcuts import render, redirect, HttpResponseRedirect
 from django.urls import reverse_lazy
 from django.views.generic import View
 from django.contrib.auth.mixins import (
@@ -59,27 +59,22 @@ class DoctorPrescriptionView(
                 save_object.patient = patient_object
                 save_object.save()
                 print("Text saved")
-                for file_form_object in file_form:
-                    if file_form_object.is_valid():
-                        file = file_form_object.save(commit=False)
-                        file.record = save_object
-                        file.save()
-                        print("Text Document")
+            for file_form_object in file_form:
+                if file_form_object.is_valid():
+                    file = file_form_object.save(commit=False)
+                    file.record = save_object
+                    file.save()
+                    print("Text Document")
+            return HttpResponseRedirect(self.get_success_url())
         except Exception as e:
-            messages.warning(request, "Unable to save record")
             logging.debug(request, f"Unable to save record {e}")
-        context = {
-            'form': self.form_class,
-            'file': self.file_form
-        }
-        return render(request, self.template_name, context)
+            return HttpResponseRedirect(self.get_error_url())
 
     def get_success_url(self):
         messages.success(self.request, "Successfully Updated")
         logger.debug("Successfully Updated")
-        return reverse_lazy("index")
+        return reverse_lazy("doctor_dashboard")
 
     def get_error_url(self):
-        messages.warning(self.request, "Unable to get Appointment")
-        logger.debug("Unable to get Appointment")
-        return reverse_lazy("dashboard")
+        messages.warning(self.request, "Unable to save record")
+        return reverse_lazy("doctor_dashboard")

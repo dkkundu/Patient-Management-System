@@ -186,7 +186,7 @@ CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': 'Custom',
         'height': 250,
-        'width': 370,
+        'width': 700,
         'toolbar_Custom': [
             ['Bold', 'Italic', 'Underline'],
             [

@@ -17,7 +17,9 @@ from core.views import (
 )
 urlpatterns = [
     path('', views.HomeView.as_view(), name='index'),
-    path('dashboard/', views.DoctorDashboard.as_view(), name='doctor_dashboard'),
+    path(
+        'dashboard/', views.DoctorDashboard.as_view(), name='doctor_dashboard'
+    ),
     path('services/', views.ServiceListView.as_view(), name="services"),
     path('services/<int:pk>/', views.ServiceDetailView.as_view(),
          name="service_details"),
@@ -41,15 +43,25 @@ urlpatterns = [
     ),
     path('load-district/', load_district, name='load_district'),
     path('load-upazila/', load_upazila, name='load_upazila'),
-    path('checked/appointment/list/', VisitedAppointmentList.as_view(), name='checked_appointment_list'),
-    path('uncheck/appointment/list/', UnVisitedAppointmentList.as_view(), name='uncheck_appointment_list'),
+    path(
+        'checked/appointment/list/',
+        VisitedAppointmentList.as_view(), name='checked_appointment_list'
+    ),
+    path(
+        'uncheck/appointment/list/',
+        UnVisitedAppointmentList.as_view(), name='uncheck_appointment_list'
+    ),
     path('patient/list/', AllPatientList.as_view(), name='patient_list'),
 
 
-    path('doctor/<int:pk>/update/', ProfileUpdate.as_view(), name='doctor_update'),
+    path(
+        'doctor/<int:pk>/update/',
+        ProfileUpdate.as_view(), name='doctor_update'
+    ),
     path('doctor/<int:pk>/view/', DrProfileView.as_view(), name='doctor_view'),
     path(
-        'doctor/password/change/', dr_change_password, name='dr_change_password'
+        'doctor/password/change/',
+        dr_change_password, name='dr_change_password'
     ),
 
 
