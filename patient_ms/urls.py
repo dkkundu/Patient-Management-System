@@ -3,7 +3,8 @@ from patient_ms.views import (
     PatientInfoUpdate,
     DoctorAppointment,
     doctor_filter,
-    DoctorPrescriptionView
+    DoctorPrescriptionView,
+    ViewAllSavedRecord
 )
 
 app_name = 'patient_ms'
@@ -21,4 +22,9 @@ urlpatterns = [
         'patient/<int:pk>/add/record/',
         DoctorPrescriptionView.as_view(), name='add_record'
     ),
+    path(
+        'patient/<int:pk>/record/view/',
+        ViewAllSavedRecord.as_view(), name='view_record'
+    ),
+
 ]
