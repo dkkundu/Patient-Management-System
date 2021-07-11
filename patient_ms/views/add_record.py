@@ -71,8 +71,8 @@ class DoctorPrescriptionView(
             return HttpResponseRedirect(self.get_error_url())
 
     def get_success_url(self):
-        messages.success(self.request, "Successfully Updated")
-        logger.debug("Successfully Updated")
+        messages.success(self.request, "Successfully new Prescription added")
+        logger.debug("Successfully new Prescription added")
         return reverse_lazy("doctor_dashboard")
 
     def get_error_url(self):

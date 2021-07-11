@@ -1,6 +1,5 @@
 from django import forms
 from hospital.models import Doctor
-from crispy_forms.helper import FormHelper
 
 
 class DoctorForm(forms.ModelForm):
@@ -54,5 +53,6 @@ class DoctorFormUpdate(forms.ModelForm):
         super(DoctorFormUpdate, self).__init__(*args, **kwargs)
         self.fields["name"].required = True
         self.fields["picture"].required = True
+        self.fields["current_hospital"].required = True
         self.fields["speciality"].required = True
         self.fields['address'].widget.attrs['rows'] = 3

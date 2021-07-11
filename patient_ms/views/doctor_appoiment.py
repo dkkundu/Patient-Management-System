@@ -29,18 +29,14 @@ class DoctorAppointment(
         appointment_day = form.cleaned_data.get("appointment_day").strftime("%Y-%m-%d")
         doctor = form.cleaned_data.get("doctor")
         serial = 1
-        print('------------', appointment_day)
-        print('------------', doctor)
         try:
             save_object = self.model.objects.filter(
                 appointment_day__contains=appointment_day,
                 doctor=doctor
             ).last()
-            print("Serial Object----", save_object)
             if save_object:
                 if save_object.serial_number > 0:
                     serial = serial + save_object.serial_number
-            print("serial---------", serial)
         except Exception as e:
             logger.debug(self.request, f"Unable to get Doctor as {e}")
             redirect(self.get_error_url())
@@ -49,16 +45,15 @@ class DoctorAppointment(
         save_form.patient = self.request.user
         save_form.serial_number = serial
         save_form.save()
-        print("serial---------", self.request.POST)
         return super(DoctorAppointment, self).form_valid(form)
 
     def get_success_url(self):
-        messages.success(self.request, "Successfully Updated")
+        messages.success(self.request, "Successfully Appointment Taken")
         logger.debug("Successfully Updated")
         return reverse_lazy("index")
 
     def get_error_url(self):
-        messages.warning(self.request, "Unable to get Appointment")
+        messages.warning(self.request, "Unable to take Appointment")
         logger.debug("Unable to get Appointment")
-        return reverse_lazy("dashboard")
+        return reverse_lazy("index")
 
