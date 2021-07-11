@@ -28,7 +28,7 @@
                 <td class="col-md-3 col-xs-1">{{ object.get_full__address }}</td>
 
                 <td class="col-md-2 col-xs-1">
-                    <a class="btn btn-outline-success" href="#">
+                    <a class="btn btn-outline-success" href="{% url 'patient_ms:view_record' pk=object.pk %}">
                         <i class="fa fa-clipboard"> All Record </i>
                     </a>
                 </td>

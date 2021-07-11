@@ -59,8 +59,13 @@
 .card-body.details {
     height: 163px;
 }
-
-    </style>
+.counter {
+    background: #1b8c58;
+    font-size: 20px;
+    margin-left: -8px;
+    color: #fff;
+}
+</style>
 {% endblock extra_css %}
 
 {% block body  %}
@@ -93,7 +98,7 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Full Name</h6>
+                      <h6 class="mb-0">Patient Name</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
                       {{ patient.name }}
@@ -108,44 +113,37 @@
                       {{ patient.user }}
                     </div>
                   </div>
+
                   <hr>
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Speciality</h6>
+                      <h6 class="mb-0">Age</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      {{ object.speciality }}
+                      {{ patient.age }}
                     </div>
                   </div>
+
                   <hr>
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Present Hospital</h6>
+                      <h6 class="mb-0">Patient Division</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      {{ object.present_hospital }}
+                      {{ patient.division }}
                     </div>
                   </div>
-                  <hr>
 
-
+                    <hr>
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Full Address</h6>
+                      <h6 class="mb-0">Patient District</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                      {{ object.get_full__address }}
+                      {{ patient.district }}
                     </div>
                   </div>
 
-
-
-                  <hr>
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <a class="btn btn-info " target="__blank" href="#">Edit</a>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -163,70 +161,46 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Full Name</h6>
+                      <h6 class="mb-0">Prescription By</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary">
-                      {{ patient.name }}
+                    <div class="col-sm-5 text-secondary">
+                      {{ object.doctor.doctor.name }} ( Doctor)
                     </div>
-                  </div>
-                  <hr>
-                  <div class="row">
-                    <div class="col-sm-3">
-                      <h6 class="mb-0">Phone</h6>
+                    <div class="col-sm-3 text-secondary">
+                       ({{ object.created_at| date:'d-M-Y' }})
                     </div>
-                    <div class="col-sm-9 text-secondary">
-                      {{ patient.user }}
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="row">
-                    <div class="col-sm-3">
-                      <h6 class="mb-0">Speciality</h6>
-                    </div>
-                    <div class="col-sm-9 text-secondary">
-                      {{ object.speciality }}
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="row">
-                    <div class="col-sm-3">
-                      <h6 class="mb-0">Present Hospital</h6>
-                    </div>
-                    <div class="col-sm-9 text-secondary">
-                      {{ object.present_hospital }}
-                    </div>
-                  </div>
-                  <hr>
-
-
-                  <div class="row">
-                    <div class="col-sm-3">
-                      <h6 class="mb-0">Full Address</h6>
-                    </div>
-                    <div class="col-sm-9 text-secondary">
-                      {{ object.get_full__address }}
+                    <div class="col-sm-1 counter">
+                      {{ forloop.counter }}
                     </div>
                   </div>
 
 
-
                   <hr>
                   <div class="row">
-                    <div class="col-sm-12">
-                      <a class="btn btn-info " target="__blank" href="#">Edit</a>
+                    <div class="col-sm-12 text-secondary">
+                      {{ object.record| safe }}
                     </div>
                   </div>
+                  <hr>
                 </div>
               </div>
 
             </div>
             <div class="col-md-2 mb-3">
+              {% if object.file %}
+              {% for f in object.file.all %}
               <div class="card">
                 <div class="card-body">
                   <div class="d-flex flex-column align-items-center text-center">
+
+                    <div class="text-secondary">
+                      <strong>Files {{ forloop.counter }}: </strong> <a href="{{ f.document.url }}">{{ f.file_name }}</a>
+                    </div>
                   </div>
                 </div>
               </div>
+              {% endfor %}
+              {% endif %}
 
             </div>
 

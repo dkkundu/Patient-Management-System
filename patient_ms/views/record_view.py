@@ -35,7 +35,7 @@ class ViewAllSavedRecord(
             )
             objects_list = self.model.objects.filter(
                 patient=patient_object
-            )
+            ).order_by('-created_at')
             print("--------------------", patient_object)
             print("--------------------", objects_list)
         except Exception as e:
