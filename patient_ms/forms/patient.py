@@ -21,13 +21,8 @@ class PatientForm(forms.ModelForm):
 class PatientUpdateForm(forms.ModelForm):
     class Meta:
         model = Patient
-        fields = [
-            "age",
-            "nid",
-            "division",
-            "district",
-            "upazila",
-            "post_code",
+        exclude = [
+            'user'
         ]
 
         widgets = {

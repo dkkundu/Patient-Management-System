@@ -77,13 +77,11 @@
                                     </li>
                                     <ul class="dropdown-menu">
                                         {% if user|is_doctor %}
-                                            <li><a href="{% url 'doctor_dashboard' %}">Dashboard</a></li>
+                                            <li><a href="{% url 'doctor_dashboard' %}"> Dashboard </a></li>
                                         {% endif %}
 
                                         {% if user|is_patient %}
-                                        {% if patient %}
-                                            <li><a href="{% url 'patient_ms:patient_info_update' pk=patient.pk%}">Profile Update</a></li>
-                                        {% endif %}
+                                          <li><a href="{% url 'patient_ms:patient_profile' %}"> Profile </a></li>
                                         {% endif %}
                                         <li><a href="{% url 'logout' %}">Logout</a></li>
 

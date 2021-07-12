@@ -18,14 +18,15 @@ class Patient(models.Model):
         settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
         blank=True, null=True, related_name="patient_data"
     )
-    picture = models.ImageField(
-        upload_to="Patient/", null=True, blank=True
-    )
+
     name = models.CharField(
     _("Patient Name"), max_length=120, null=True, blank=True
     )
     age = models.PositiveIntegerField(
         _("Patient Age"), null=True, blank=True
+    )
+    picture = models.ImageField(
+        upload_to="Patient/", null=True, blank=True
     )
     nid = models.CharField(
         _('National ID'), max_length=17, unique=True, blank=True, null=True,
@@ -34,7 +35,6 @@ class Patient(models.Model):
             message='Numeric 10/13/17 digits (ex: 1234567890)'
         )]
     )
-
     division = models.ForeignKey(
         Division, models.SET_NULL,
         related_name='patient_division',
@@ -65,7 +65,7 @@ class Patient(models.Model):
         return str(self.name)
 
     @property
-    def get_full__address(self):
+    def get_full_address(self):
         save_present_address = ''
         if self.address:
             save_present_address = ''.join(self.address)

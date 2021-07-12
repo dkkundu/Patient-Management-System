@@ -48,9 +48,16 @@ class DoctorAppointment(
         return super(DoctorAppointment, self).form_valid(form)
 
     def get_success_url(self):
-        messages.success(self.request, "Successfully Appointment Taken")
+        messages.success(
+            self.request,
+            "Successfully Appointment Taken, "
+            "Please Download the appointment letter"
+        )
         logger.debug("Successfully Updated")
-        return reverse_lazy("index")
+        return reverse_lazy(
+                    "patient_ms:appointment_confirmation",
+                    kwargs={'pk': self.object.pk}
+        )
 
     def get_error_url(self):
         messages.warning(self.request, "Unable to take Appointment")
