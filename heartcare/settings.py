@@ -66,6 +66,7 @@ PLAGIN_APPS = [
     'bootstrap_datepicker_plus',
     'ckeditor',
     'ckeditor_uploader',
+    'weasyprint',
 
 ]
 
