@@ -314,3 +314,7 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'patient_info_update' with ke
 2021-07-13 01:32:18,351 INFO autoreload 82719 139750212810560 /run/media/dipto/DK/Projects/University/Patient-Management-System/heartcare/settings.py changed, reloading.
 2021-07-13 01:32:21,986 INFO autoreload 82803 140230417495872 Watching for file changes with StatReloader
 2021-07-13 01:37:37,340 WARNING log 82803 140230296303168 Not Found: /favicon.ico
+2021-07-13 02:55:07,350 INFO autoreload 82803 140230417495872 /run/media/dipto/DK/Projects/University/Patient-Management-System/heartcare/settings.py changed, reloading.
+2021-07-13 02:55:11,181 INFO autoreload 88538 140200379365184 Watching for file changes with StatReloader
+2021-07-13 02:55:21,001 INFO autoreload 88538 140200379365184 /run/media/dipto/DK/Projects/University/Patient-Management-System/heartcare/settings.py changed, reloading.
+2021-07-13 02:55:24,066 INFO autoreload 88586 140432632612672 Watching for file changes with StatReloader
