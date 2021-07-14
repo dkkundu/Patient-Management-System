@@ -1,5 +1,8 @@
 {% load static %}
 {% load group_checker_tag %}
+{% block style %}
+
+{% endblock style %}
 <header class="site-header">
     <div class="top-bar">
         <div class="container">
@@ -35,7 +38,9 @@
                                     class="icon-bar"></span></button>
                             <a class="navbar-brand logo-image" href="{% url 'index' %}"><img
                                     src="{% static 'heartcare/images/logo.png' %}"
-                                    alt=""></a></div>
+                                    alt=""></a>
+                                
+                                </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
