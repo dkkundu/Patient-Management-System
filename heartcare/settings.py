@@ -1,3 +1,4 @@
+import django_heroku
 import datetime
 import os
 
@@ -171,7 +172,10 @@ BOOTSTRAP4 = {
 }
 STATIC_URL = '/static/'
 STATIC_ROOT = STATIC_DIR
-STATICFILES_DIRS = [STATICFILES_DIR, ]
+# STATICFILES_DIRS = [STATICFILES_DIR, ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = MEDIA_DIR
 
@@ -201,3 +205,5 @@ CKEDITOR_CONFIGS = {
     }
 }
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+django_heroku.settings(locals())
