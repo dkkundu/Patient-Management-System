@@ -19,3 +19,9 @@
 2021-07-14 20:04:02,956 INFO autoreload 56387 139839979636544 Watching for file changes with StatReloader
 2021-07-14 20:06:18,391 INFO autoreload 56387 139839979636544 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/partials/_footer.html changed, reloading.
 2021-07-14 20:06:22,647 INFO autoreload 56555 139899057219392 Watching for file changes with StatReloader
+2021-07-14 20:24:12,798 INFO autoreload 56555 139899057219392 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital/index.html changed, reloading.
+2021-07-14 20:24:16,141 INFO autoreload 58133 139973824182080 Watching for file changes with StatReloader
+2021-07-14 20:24:41,014 INFO autoreload 58133 139973824182080 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital/index.html changed, reloading.
+2021-07-14 20:24:44,052 INFO autoreload 58220 140262021883712 Watching for file changes with StatReloader
+2021-07-14 20:24:49,173 INFO autoreload 58220 140262021883712 /run/media/dipto/DK/Projects/University/Patient-Management-System/templates/hospital/index.html changed, reloading.
+2021-07-14 20:24:52,334 INFO autoreload 58280 140289906124608 Watching for file changes with StatReloader
