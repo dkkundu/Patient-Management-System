@@ -2,7 +2,7 @@
 
 Patient-Management-System is a diagonostic management project developed in django. Admin can add doctor, add services, add gallery pictures . User can see doctors profile and also they can make appointment. They can also contact to the Patient-Management-System through email.
 
-# To collect static files
+# ALL SETUP FOR RUN THIS PROJECT
 1. clone the project from git ( git clone https://github.com/dkkundu/Patient-Management-System.git )
 2. Make 2 folder in root File (logs, media)
 3. download dependancy python uper than 3.8
