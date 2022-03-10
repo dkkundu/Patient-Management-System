@@ -12,6 +12,7 @@ from rest_framework.settings import api_settings
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.tokens import RefreshToken
 from hospital.uility import user_has_group
+from django.contrib.auth import authenticate, login, logout
 
 # API IMPORTS
 from core.api.serializers import (
@@ -27,32 +28,28 @@ class ObtainTokenView(TokenObtainPairView):
     renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES
 
     def post(self, request, *args, **kwargs):
-        """overriding to enable logging"""
-        logger.info(  # prints class and function name
-            f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-            f"Obtaining token: email={request.POST.get('email')}"
-        )
-        # Overridden to return more user information with token
+        serializer = self.serializer_class(data=request.data)
+        if serializer.is_valid():
+            user = authenticate(
+                phone=serializer.data.get('phone'),
+                password=serializer.data.get('password')
+                )
+            if user:
+                serializer.is_valid(raise_exception=True)
+                serialized_user = UserSerializer(user)
 
-        serializer = self.get_serializer(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        user = serializer.validated_data['user']
-        serialized_user = UserSerializer(user)
+                user.last_login = timezone.now()
+                user.save()  # save the last login time to now()
 
-        user.last_login = timezone.now()
-        user.save()  # save the last login time to now()
-
-        user_type = "Unauthorized"
-       
-
-
-        refresh = RefreshToken.for_user(user)
-        data = {
-            'refresh': str(refresh),
-            'access': str(refresh.access_token).encode().decode(),
-            'user_type': user_type,
-        }
-        data.update(serialized_user.data)
+                user_type = "Unauthorized"
+            
+                refresh = RefreshToken.for_user(user)
+                data = {
+                    'refresh': str(refresh),
+                    'access': str(refresh.access_token).encode().decode(),
+                    'user_type': user_type,
+                }
+                data.update(serialized_user.data)
         return Response(data)
 
 

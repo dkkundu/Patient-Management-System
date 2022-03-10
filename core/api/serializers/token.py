@@ -13,35 +13,12 @@ logger = logging.getLogger(__name__)
 
 class TokenSerializer(serializers.Serializer):
     """Authentication Token Serializer"""
-    email = serializers.EmailField()
+    phone = serializers.CharField()
     password = serializers.CharField(
         style={'input_type': 'password'},
         trim_whitespace=False  # password may contain spaces
     )
 
-    def validate(self, attrs):
-        """token validation and authentication"""
-        email = BaseUserManager.normalize_email(attrs.get('email'))
-        logger.debug(  # prints class and function name
-            f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-            f"Validating user: email={email}"
-        )
-        user = authenticate(
-            request=self.context.get('request'),
-            username=email,
-            password=attrs.get('password')
-        )
-        if not user:
-            logger.debug(  # prints class and function name
-                f"{self.__class__.__name__}.{_getframe().f_code.co_name} "
-                f"Authentication failed: email={email}"
-            )
-            raise serializers.ValidationError(
-                "Unable to authenticate user with provided credentials",
-                code='authentication'
-            )
-        attrs['user'] = user
-        return attrs
 
 
 class LogoutSerializer(serializers.Serializer):
