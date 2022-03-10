@@ -67,6 +67,7 @@ PLAGIN_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'weasyprint',
+    'rest_framework'
 
 ]
 
