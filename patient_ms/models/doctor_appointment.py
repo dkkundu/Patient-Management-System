@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 class DoctorAppointment(models.Model):
     patient = models.ForeignKey(
         settings.AUTH_USER_MODEL, on_delete=models.SET_NULL,
-        blank=True, null=True,related_name="appointment"
+        blank=True, null=True, related_name="appointment"
     )
     speciality = models.ForeignKey(
         Speciality, on_delete=models.PROTECT,

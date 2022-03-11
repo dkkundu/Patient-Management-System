@@ -13,6 +13,7 @@ urlpatterns = [
     path('__debug__/', include(debug_toolbar.urls)),
     path('', include('django_prometheus.urls')),
     path('core/api/', include('core.api.urls')),
+    path('api/', include('patient_ms.api.urls')),
 ]
 
 if settings.DEBUG:
