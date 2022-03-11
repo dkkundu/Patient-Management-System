@@ -29,28 +29,40 @@ class ObtainTokenView(TokenObtainPairView):
 
     def post(self, request, *args, **kwargs):
         serializer = self.serializer_class(data=request.data)
-        if serializer.is_valid():
-            user = authenticate(
-                phone=serializer.data.get('phone'),
-                password=serializer.data.get('password')
-                )
-            if user:
-                serializer.is_valid(raise_exception=True)
-                serialized_user = UserSerializer(user)
+        try:
+            if serializer.is_valid():
+                user = authenticate(
+                    phone=serializer.data.get('phone'),
+                    password=serializer.data.get('password')
+                    )
+                if user:
+                    serializer.is_valid(raise_exception=True)
+                    serialized_user = UserSerializer(user)
 
-                user.last_login = timezone.now()
-                user.save()  # save the last login time to now()
+                    user.last_login = timezone.now()
+                    user.save()  # save the last login time to now()
 
-                user_type = "Unauthorized"
-            
-                refresh = RefreshToken.for_user(user)
-                data = {
-                    'refresh': str(refresh),
-                    'access': str(refresh.access_token).encode().decode(),
-                    'user_type': user_type,
-                }
-                data.update(serialized_user.data)
-        return Response(data)
+                    user_type = "Unauthorized"
+                
+                    refresh = RefreshToken.for_user(user)
+                    data = {
+                        'refresh': str(refresh),
+                        'access': str(refresh.access_token).encode().decode(),
+                        'user_type': user_type,
+                    }
+                    data.update(serialized_user.data)
+                    return Response(data)
+            return Response({
+                        'status': 200,
+                        'message': "Faild To login",
+                    })
+        except Exception as e:
+             return Response({
+                        'status': 200,
+                        'message': "Faild To login",
+                    })
+
+
 
 
 class LogoutView(generics.DestroyAPIView):
