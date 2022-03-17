@@ -21,7 +21,7 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         """Meta class"""
         model = USER_MODEL
-        fields = '__all__'
+        exclude = ['id']
         read_only_fields = (
             'last_login', 'is_active', 'is_staff', 'is_superuser',
             'groups', 'user_permissions',

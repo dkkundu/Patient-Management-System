@@ -43,23 +43,35 @@ class ObtainTokenView(TokenObtainPairView):
                     user.save()  # save the last login time to now()
 
                     user_type = "Unauthorized"
-                
+
+                    try:
+                        user_id = user.doctor.pk
+                        user_name = user.doctor.name
+                        user_type = 'Doctor'
+                    except Exception as e:
+                        print(e)
+                        user_id = user.patient_data.pk
+                        user_name = user.patient_data.name
+                        user_type = 'Patient'
+                        
                     refresh = RefreshToken.for_user(user)
                     data = {
                         'refresh': str(refresh),
                         'access': str(refresh.access_token).encode().decode(),
                         'user_type': user_type,
+                        'id': user_id,
+                        'name': user_name
                     }
                     data.update(serialized_user.data)
                     return Response(data)
             return Response({
-                        'status': 200,
+                        'status': 500,
                         'message': "Faild To login",
                     })
         except Exception as e:
              return Response({
-                        'status': 200,
-                        'message': "Faild To login",
+                        'status': 500,
+                        'message': "invalid serializer To login",
                     })
 
 
